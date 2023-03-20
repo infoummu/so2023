@@ -1,0 +1,799 @@
+<!-- ***** 20 Maret 2023 ***** -->
+    FROM FILE : *-hasil-p3.md: 
+    *******************************
+    BEGINING OF FILE **************
+    *******************************
+    ---
+    title: Hasil Tugas Pertemuan 3 - FD
+    author: Ikhwan N. Elyas
+    category: Halaman Materi
+    published: true
+    ---
+
+
+    <table>
+        <tr  class="nob">
+            <td class="nob tm "> PENETAPAN </td>
+            <td class="nob">
+                <TABLE>
+                    <TR>
+                        <TD  class="nob">
+                        <style>
+    .image-gallery {overflow: auto; margin-left: -1%!important;}
+    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+    .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+    .image-gallery li a img {width: 100%; display: block;}
+
+
+</style>
+
+<table  class="nob">
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+</table>
+
+
+<!-- <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul> -->
+
+<!-- 
+     
+      
+-->
+                        </TD>
+                    </TR>
+                </TABLE>
+            </td> 
+        </tr>
+        <tr>
+            <td > PELAKSANAAN </td>
+            <td>
+            <TABLE>
+                <TR>
+                    <TD>
+                    <style>
+    .image-gallery {overflow: auto; margin-left: -1%!important;}
+    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+    .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+    .image-gallery li a img {width: 100%; display: block;}
+
+
+</style>
+
+<table  class="nob">
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+</table>
+
+
+<!-- <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul> -->
+
+<!-- 
+     
+      
+-->
+                    </TD>
+                </TR>
+            </TABLE>
+            </td>
+        </tr>
+    </table>
+
+    ***
+    By: Ikhwan@fedora37.linux
+    END OF FILE: *-hasil-p3.md 
+
+*******************************
+END OF FILE : *HASIL-P3.MD ****
+*******************************
+
+    FROM FILE : *-hasil-p4.md: 
+    *******************************
+    BEGINING OF FILE **************
+    *******************************
+    ---
+    title: Hasil Tugas Pertemuan 4 - FD
+    author: Ikhwan N. Elyas
+    category: Halaman Materi
+    published: true
+    ---
+
+    1. Berikut Merupakan Daftar Gambar Hasil Tugas Pertemuan Ke-3,
+    2. Yang Gambarnya Tidak Tampil berarti nama filenya masih ada yang salah, silahkan perbaiki !,
+    3. Yang Hasil Tugasnya Sama Persis Nilainya dibagi rata,
+    4. Bagi yang mau Memperbaiki Tugasnya dipersilahkan.
+
+
+    <ul>
+        
+            
+            
+            
+        
+            
+            
+            
+        
+            
+            
+            
+        
+            
+            
+            
+        
+            
+            
+            
+        
+    </ul>
+
+
+    ***
+    By: Ikhwan@fedora37.linux
+
+<!-- ***** END  20 Maret 2023 ***** -->
+
+
+<!--  ***********************  -->
+
+<ul class="tree">
+    <li> Giant planets ccccc
+        <ul>
+            <li>Ice giants
+                <ul>
+                    <li>Uranus</li>
+                    <li>Neptune</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+*** 
+
+<ul class="tree">
+    <li>
+        <details open>
+            <summary>Level 1 - Forensik Digital</summary>
+            <p>
+                Requires a computer running an operating system. The computer must have some
+                memory and ideally some kind of long-term storage. An input device as well
+                as some form of output device is recommended.
+                <ul>
+                    <li> 
+                        <details open>
+                            <summary>Level 2 - System Requirements 0</summary>
+                            <p>
+                            Requires a computer running an operating system. The computer must have some
+                            memory and ideally some kind of long-term storage. An input device as well
+                            as some form of output device is recommended.
+                            </p>            
+                            <img src="img/cantik-icon.png">
+                        </details>
+                    </li> 
+                    <li>
+                        <details>
+                            <summary>Level 2 - System Requirements 1</summary>
+                            <p>
+                            Requires a computer running an operating system. The computer must have some
+                            memory and ideally some kind of long-term storage. An input device as well
+                            as some form of output device is recommended.
+                            </p>  
+                        </details>
+                    </li>
+                    <li>
+                        <details> 
+                            <summary>Level 2 - System Requirements 2</summary>  
+                            <p>
+                            Requires a computer running an operating system. The computer must have some
+                            memory and ideally some kind of long-term storage. An input device as well
+                            as some form of output device is recommended.
+
+                            ![Contoh Img](img/cantik-icon.png)
+                            </p>        
+                        </details>
+                    </li>    
+                </ul>
+            </p>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>Level 1 - Forensik Digital</summary>
+            <p>
+                <ul>
+                    <li> 
+                        <details open>
+                            <summary>Level 2 - System Requirements 0</summary>
+                            <p>
+                            Requires a computer running an operating system. The computer must have some
+                            memory and ideally some kind of long-term storage. An input device as well
+                            as some form of output device is recommended.
+                            </p>            
+                        </details>
+                    </li> 
+                </ul>
+            </p>
+        </details>
+    </li>
+</ul>
+
+
+
+***
+By: Ikhwan@fedora37.linux

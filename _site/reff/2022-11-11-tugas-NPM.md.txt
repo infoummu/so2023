@@ -1,0 +1,31 @@
+### Contoh Format Tugas, cukup Replace/tulis-ulang tidak perlu diubah formatnya tinggal diubah dan ditambah (setelah itu hapus baris ini)
+---
+title: Sejarah Sistem Operasi - NPM
+category: Tugas P4
+author: NAMA_ANDA
+published: true
+---
+
+
+### Sejarah Sistem Operasi
+
+Isi dengan Materi Pengantar seputar apa itu Cybercrime (Kira-kira 250 sampai 300 kata)
+
+### 1. 1890 Awal Sistem Operasi
+
+Isi dengan Materi seputar apa itu Sejarah Awal mula `Sistem Operasi`, Kira-kira 250 sampai 300 kata (lebih dari 300 boleh tapi jangan sampai lebih dari 500 kata)
+
+### 2. Sejarah Windows
+
+Isi dengan Materi seputar apa itu `Seputar Sejarah Microsoft Windows`, Kira-kira 250 sampai 300 kata (lebih dari 200 boleh tapi jangan sampai lebih dari 500 kata)
+
+### 3. Sejarah Linux 
+
+Isi dengan Materi seputar `Sejarah Linux`, Kira-kira 250 sampai 320 kata (lebih dari 300 boleh tapi jangan sampai lebih dari 500 kata)
+
+### 4. ... dan Seterusnya 
+
+
+### 12. Sejarah IoS atau MacOS
+
+Isi dengan Materi seputar  `Sejarah IoS atau MacOS`, Kira-kira 250 sampai 300 kata (lebih dari 300 boleh tapi jangan sampai lebih dari 500 kata)

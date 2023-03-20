@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- TAMBAHAN UNTUK HIJR CALENDER -->
+<div class="tocContainer" style="display:block" border="0">
+<script>
+	$(document).ready(function(){
+		//$("#rtc").click(function(){
+		hdte = writeIslamicDate(); //+' :: '+writeIslamicDate(-1);
+		//document.getElementById('hcal1').innerHTML += writeIslamicDate(-1);
+		document.getElementById('hcal').innerHTML = 'Today : '+hdte+'   /   '+harini();
+	});
+
+</script>
+<div id="hcal" onclick="harini(0)"></div>
+</div>
+<!-- END - TAMBAHAN UNTUK HIJR CALENDER -->
+
+<!-- Posts -->
+<ul id="posts">
+
+<!-- ORIGINAL 
+	{% for post in paginator.posts limit:12 %}
+
+	  <li class="post">
+	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}.html">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></h2>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> <i>{{ post.date | date_to_string }}</i> | {{post.categories}}</time> 
+	  	 <p>{{ post.content | strip_html | truncatewords:90 }}</p> 
+	  </li>
+
+    {% endfor %} 
+-->
+	{% for post in site.posts limit:8 %}
+
+	  <li class="post">
+	  	<h3><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}.html">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></h3>
+      	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> {{post.categories}}  | <i>{{ post.date | date_to_string }}</i> </time> 
+<!--		<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line"> <i>{{ page.date | date_to_string }}</i> | {{post.categories}}</time> -->
+	  	 <p>{{ post.content | strip_html | truncatewords:60 }}</p> 
+	  </li>
+
+	  
+    {% endfor %} 
+
+
+</ul>
+
+<br />
+Other Post --> <a href="categories.html" title="tes....">Archive All Posts</a> ...
+<br />

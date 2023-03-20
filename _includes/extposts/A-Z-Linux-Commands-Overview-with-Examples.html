@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+<meta charset="UTF-8">
+
+<link rel='stylesheet' id='fancybox-style-css' href='https://www.tecmint.com/wp-content/plugins/light/css/jquery.fancybox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='stcr-plugin-style-css' href='https://www.tecmint.com/wp-content/plugins/subscribe-to-comments-reloaded/includes/css/stcr-plugin-style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css' href='https://www.tecmint.com/wp-content/themes/tecmint/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css' href='https://www.tecmint.com/wp-content/themes/tecmint/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-css' href='https://www.tecmint.com/wp-content/themes/tecmint/custom.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://www.tecmint.com/wp-content/themes/tecmint/fonts/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='qbp-css' href='https://www.tecmint.com/wp-content/plugins/quickiebar-pro/public/style/qbp.css' type='text/css' media='all' />
+
+<style type="text/css">
+
+body { font-family: "Roboto Condensed", Arial, sans-serif; }
+.boxed #wrapper, .container-inner { max-width: 1280px; }
+.sidebar .widget { padding-left: 20px; padding-right: 20px; padding-top: 20px; }
+
+.search-expand,
+#nav-topbar.nav-container { background-color: #23588c; }
+@media only screen and (min-width: 720px) {
+	#nav-topbar .nav ul { background-color: #23588c; }
+}			
+				
+
+#header { background-color: #075b88; }
+@media only screen and (min-width: 720px) {
+	#nav-header .nav ul { background-color: #075b88; }
+}			
+				
+
+#nav-header.nav-container { background-color: #2f6dab; }
+@media only screen and (min-width: 720px) {
+	#nav-header .nav ul { background-color: #2f6dab; }
+}			
+				
+#footer-bottom { background-color: #2f6dab; }
+.site-title a img { max-height: 90px; }
+img { -webkit-border-radius: 2px; border-radius: 2px; }
+</style>
+
+
+</head>
+<body data-rsssl=1 class="page-template-default page page-id-25720 col-1c full-width topbar-enabled chrome">
+<div id="wrapper">
+<header id="header">
+
+</header>
+<div class="container" id="page">
+<div class="container-inner">
+<div class="main">
+<div class="main-inner group">
+<section class="content">
+<div class="page-title pad group">
+<h2>A &#8211; Z Linux Commands &#8211; Overview with Examples</h2>
+</div>
+<div class="pad group">
+<article class="group post-25720 page type-page status-publish has-post-thumbnail hentry">
+<div class="page-image">
+<div class="image-container">
+<div class="page-image-text">
+<div class="caption">Linux Commands Cheat Sheet</div><div class="description"><i>Linux Commands Cheat Sheet</i></div></div> </div>
+</div>
+<div class="entry share">
+<div class="entry-inner">
+<div id="tocContainer">
+<h3>On this page</h3>
+<ol>
+<li><a href="#adduser/addgroup">adduser/addgroup</a></li>
+<li><a href="#agetty">agetty</a></li>
+<li><a href="#alias">alias</a></li>
+<li><a href="#anacron">anacron</a></li>
+<li><a href="#apropos">apropos</a></li>
+<li><a href="#apt">apt</a></li>
+<li><a href="#apt-get">apt-get</a></li>
+<li><a href="#aptitude">aptitude</a></li>
+<li><a href="#arch">arch</a></li>
+<li><a href="#arp">arp</a></li>
+<li><a href="#at">at</a></li>
+<li><a href="#atq">atq</a></li>
+<li><a href="#atrm">atrm</a></li>
+<li><a href="#awk">awk</a></li>
+<li><a href="#batch">batch</a></li>
+<li><a href="#basename">basename</a></li>
+<li><a href="#bc">bc</a></li>
+<li><a href="#bg">bg</a></li>
+<li><a href="#bzip">bzip</a></li>
+<li><a href="#cal">cal</a></li>
+<li><a href="#cat">cat</a></li>
+<li><a href="#chgrp">chgrp</a></li>
+<li><a href="#chmod">chmod</a></li>
+<li><a href="#chown">chown</a></li>
+<li><a href="#cksum">cksum</a></li>
+<li><a href="#clear">clear</a></li>
+<li><a href="#cmp">cmp</a></li>
+<li><a href="#comm">comm</a></li>
+<li><a href="#cp">cp</a></li>
+<li><a href="#date">date</a></li>
+<li><a href="#dd">dd</a></li>
+<li><a href="#df">df</a></li>
+<li><a href="#diff">diff</a></li>
+<li><a href="#dir">dir</a></li>
+<li><a href="#dmidecode">dmidecode</a></li>
+<li><a href="#du">du</a></li>
+<li><a href="#echo">echo</a></li>
+<li><a href="#eject">eject</a></li>
+<li><a href="#env">env</a></li>
+<li><a href="#exit">exit</a></li>
+<li><a href="#expr">expr</a></li>
+<li><a href="#factor">factor</a></li>
+<li><a href="#find">find</a></li>
+<li><a href="#free">free</a></li>
+<li><a href="#grep">grep</a></li>
+<li><a href="#groups">groups</a></li>
+<li><a href="#gzip">gzip</a></li>
+<li><a href="#gunzip">gunzip</a></li>
+<li><a href="#head">head</a></li>
+<li><a href="#history">history</a></li>
+<li><a href="#hostname">hostname</a></li>
+<li><a href="#hostnamectl">hostnamectl</a></li>
+<li><a href="#hwclock">hwclock</a></li>
+<li><a href="#hwinfo">hwinfo</a></li>
+<li><a href="#id">id</a></li>
+<li><a href="#ifconfig">ifconfig</a></li>
+<li><a href="#ionice">ionice</a></li>
+<li><a href="#iostat">iostat</a></li>
+<li><a href="#ip">ip</a></li>
+<li><a href="#iptables">iptables</a></li>
+<li><a href="#iw">iw</a></li>
+<li><a href="#iwlist">iwlist</a></li>
+<li><a href="#kill">kill</a></li>
+<li><a href="#killall">killall</a></li>
+<li><a href="#kmod">kmod</a></li>
+<li><a href="#last">last</a></li>
+<li><a href="#ln">ln</a></li>
+<li><a href="#locate">locate</a></li>
+<li><a href="#login">login</a></li>
+<li><a href="#ls">ls</a></li>
+<li><a href="#lshw">lshw</a></li>
+<li><a href="#lscpu">lscpu</a></li>
+<li><a href="#lsof">lsof</a></li>
+<li><a href="#lsusb">lsusb</a></li>
+<li><a href="#man">man</a></li>
+<li><a href="#mdsum">mdsum</a></li>
+<li><a href="#mkdir">mkdir</a></li>
+<li><a href="#more">more</a></li>
+<li><a href="#mv">mv</a></li>
+<li><a href="#nano">nano</a></li>
+<li><a href="#nc/netcat">nc/netcat</a></li>
+<li><a href="#netstat">netstat</a></li>
+<li><a href="#nice">nice</a></li>
+<li><a href="#nmap">nmap</a></li>
+<li><a href="#nproc">nproc</a></li>
+<li><a href="#openssl">openssl</a></li>
+<li><a href="#passwd">passwd</a></li>
+<li><a href="#pidof">pidof</a></li>
+<li><a href="#ping">ping</a></li>
+<li><a href="#ps">ps</a></li>
+<li><a href="#pstree">pstree</a></li>
+<li><a href="#pwd">pwd</a></li>
+<li><a href="#rdiff-backup">rdiff-backup</a></li>
+<li><a href="#reboot">reboot</a></li>
+<li><a href="#rename">rename</a></li>
+<li><a href="#rm">rm</a></li>
+<li><a href="#rmdir">rmdir</a></li>
+<li><a href="#scp">scp</a></li>
+<li><a href="#shutdown">shutdown</a></li>
+<li><a href="#sleep">sleep</a></li>
+<li><a href="#sort">sort</a></li>
+<li><a href="#split">split</a></li>
+<li><a href="#ssh">ssh</a></li>
+<li><a href="#stat">stat</a></li>
+<li><a href="#su">su</a></li>
+<li><a href="#sudo">sudo</a></li>
+<li><a href="#sum">sum</a></li>
+<li><a href="#tac">tac</a></li>
+<li><a href="#tail">tail</a></li>
+<li><a href="#talk">talk</a></li>
+<li><a href="#tar">tar</a></li>
+<li><a href="#tee">tee</a></li>
+<li><a href="#time">time</a></li>
+<li><a href="#top">top</a></li>
+<li><a href="#touch">touch</a></li>
+<li><a href="#tr">tr</a></li>
+<li><a href="#uname">uname</a></li>
+<li><a href="#uniq">uniq</a></li>
+<li><a href="#uptime">uptime</a></li>
+<li><a href="#users">users</a></li>
+<li><a href="#vim/vi">vim/vi</a></li>
+<li><a href="#w">w</a></li>
+<li><a href="#wall">wall</a></li>
+<li><a href="#watch">watch</a></li>
+<li><a href="#wc">wc</a></li>
+<li><a href="#wget">wget</a></li>
+<li><a href="#whatis">whatis</a></li>
+<li><a href="#which">which</a></li>
+<li><a href="#who">who</a></li>
+<li><a href="#whereis">whereis</a></li>
+<li><a href="#xargs">xargs</a></li>
+<li><a href="#yes">yes</a></li>
+<li><a href="#youtube-dl">youtube-dl</a></li>
+<li><a href="#zcmp/zdiff">zcmp/zdiff</a></li>
+<li><a href="#zip">zip</a></li>
+<li><a href="#zz">zz</a></li>
+</ol>
+</div>
+<p>There are a countless number of commands in Linux. We are bound to use a number of them on a daily routine or numerous times to perform common tasks than others. It is important to note that certain commands are “distro-based” &#8211; they can only be found in specific distros. While others are generic Unix/Linux commands that you’ll find in all if not most mainstream distros.</p>
+<p>In this article, we will introduce you a list of most frequently used Linux commands with their examples for easy learning. You can find the actual description of each Linux command in their manual page which you can access like this:</p>
+<pre>$ man command-name
+</pre>
+<h3 id="adduser/addgroup">adduser/addgroup Command</h3>
+<p>The <strong>adduser</strong> and <strong>addgroup</strong> commands are used to add a user and group to the system respectively according to the default configuration specified in <strong>/etc/adduser.conf</strong> file.</p>
+<pre>$ sudo adduser tecmint
+</pre>
+<p>For more <strong>adduser</strong> and <strong>addgroup</strong> commands: <a href="https://www.tecmint.com/add-users-in-linux/" target="_blank" rel="noopener noreferrer">15 Practical Examples on adduser Command in Linux</a></p>
+<h3 id="agetty">agetty Command</h3>
+<p><strong>agetty</strong> is a program which manages physical or virtual terminals and is invoked by <strong>init</strong>. Once it detects a connection, it opens a tty port, asks for a user’s login name and calls up the <strong>/bin/login</strong> command. <strong>Agetty</strong> is a substitute of Linux <strong>getty</strong>:</p>
+<pre>$ agetty -L 9600 ttyS1 vt100
+</pre>
+<h3 id="alias">alias Command</h3>
+<p><strong>alias</strong> is a useful shell built-in command for creating aliases (shortcut) to a Linux command on a system. It is helpful for creating new/custom commands from existing Shell/Linux commands (including options):</p>
+<pre>$ alias home='cd /home/tecmint/public_html'
+</pre>
+<p>The above command will create an alias called <strong>home</strong> for <strong>/home/tecmint/public_html</strong> directory, so whenever you type <strong>home</strong> in the terminal prompt, it will put you in the <strong>/home/tecmint/public_html</strong> directory.</p>
+<h3 id="anacron">anacron Command</h3>
+<p><a href="https://www.tecmint.com/cron-vs-anacron-schedule-jobs-using-anacron-on-linux/" target="_blank" rel="noopener noreferrer">anacron</a> is a Linux facility used to run commands periodically with a frequency defined in days, weeks and months.</p>
+<p>Unlike its sister <a href="https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/" target="_blank" rel="noopener noreferrer">cron</a>; it assumes that a system will not run continuously, therefore if a scheduled job is due when the system is off, it’s run once the machine is powered on.</p>
+<p>For more information about <strong>anacron</strong> and <strong>cron</strong> read: <a href="https://www.tecmint.com/cron-vs-anacron-schedule-jobs-using-anacron-on-linux/" target="_blank" rel="noopener noreferrer">Cron Vs Anacron: How to Schedule Jobs Using Anacron on Linux</a></p>
+<h3 id="apropos">apropos Command</h3>
+<p><strong>apropos</strong> command is used to <a href="https://www.tecmint.com/find-linux-command-description-and-location/" target="_blank" rel="noopener noreferrer">search and display a short man page description</a> of a command/program as follows.</p>
+<pre>$ apropos adduser
+</pre>
+<h3 id="apt">apt Command</h3>
+<p><a href="https://www.tecmint.com/apt-advanced-package-command-examples-in-ubuntu/" target="_blank" rel="noopener noreferrer">apt</a> tool is a relatively new higher-level package manager for Debian/Ubuntu systems:</p>
+<pre>$ sudo apt update
+</pre>
+<p>For more apt usage read: <a href="https://www.tecmint.com/apt-advanced-package-command-examples-in-ubuntu/" target="_blank" rel="noopener noreferrer">15 Useful Examples on APT Command</a></p>
+<h3 id="apt-get">apt-get Command</h3>
+<p><a href="https://www.tecmint.com/useful-basic-commands-of-apt-get-and-apt-cache-for-package-management/" target="_blank" rel="noopener noreferrer">apt-get</a> is a powerful and free front-end package manager for Debian/Ubuntu systems. It is used to install new software packages, remove available software packages, upgrade existing software packages as well as upgrade entire operating system.</p>
+<pre>$ sudo apt-get update
+</pre>
+<p>For more apt-get usage, read: <a href="https://www.tecmint.com/useful-basic-commands-of-apt-get-and-apt-cache-for-package-management/" target="_blank" rel="noopener noreferrer">25 Useful Commands of APT-GET for Package Management</a></p>
+<h3 id="aptitude">aptitude Command</h3>
+<p><strong>aptitude</strong> is a powerful text-based interface to the Debian GNU/Linux package management system. Like <strong>apt-get</strong> and <strong>apt</strong>; it can be used to install, remove or upgrade software packages on a system.</p>
+<pre>$ sudo aptitude update
+</pre>
+<p>For more usage on aptitude, read: <a href="https://www.tecmint.com/linux-package-management/" target="_blank" rel="noopener noreferrer">Learn Debian Package Management with Aptitude Command</a></p>
+<h3 id="arch">arch Command</h3>
+<p><strong>arch</strong> is a simple command for displaying machine architecture or hardware name (similar to <strong>uname -m</strong>):</p>
+<pre>$ arch 
+</pre>
+<h3 id="arp">arp Command</h3>
+<p><strong>ARP</strong> (<strong>Address Resolution Protocol</strong>) is a protocol that maps IP network addresses of a network neighbor with the hardware (MAC) addresses in an IPv4 network.</p>
+<p>You can use it as below to find all alive hosts on a network:</p>
+<pre>$ sudo arp-scan --interface=enp2s0 --localnet  
+</pre>
+<h3 id="at">at Command</h3>
+<p><a href="https://www.tecmint.com/linux-cron-alternative-at-command-to-schedule-tasks/" target="_blank" rel="noopener noreferrer">at command</a> is used to schedule tasks to run in a future time. It’s an alternative to <strong>cron</strong> and <strong>anacron</strong>, however, it runs a task once at a given future time without editing any config files:</p>
+<p>For example, to shutdown the system at 23:55 today, run:</p>
+<pre>$ sudo echo "shutdown -h now" | at -m 23:55
+</pre>
+<h3 id="atq">atq Command</h3>
+<p><strong>atq</strong> command is used to view jobs in <strong>at command</strong> queue:</p>
+<pre>$ atq
+</pre>
+<h3 id="atrm">atrm Command</h3>
+<p><strong>atrm</strong> command is used to remove/deletes jobs (identified by their job number) from at command queue:</p>
+<pre>$ atrm 2
+</pre>
+<p>For more usage about <strong>at</strong> command, read: <a href="https://www.tecmint.com/linux-cron-alternative-at-command-to-schedule-tasks/" target="_blank" rel="noopener noreferrer">How to Use ‘at’ Command to Schedule a Task in Linux</a></p>
+<h3 id="awk">awk Command</h3>
+<p><a href="https://www.tecmint.com/category/awk-command/" target="_blank" rel="noopener noreferrer">Awk</a> is a powerful programming language created for text processing and generally used as a data extraction and reporting tool.</p>
+<pre>$ awk '//{print}'/etc/hosts
+</pre>
+<p>For more Awk concepts (basic and advance) with simple and easy-to-understand, we&#8217;ve created a book that contains 13 chapters with a total of 41 pages, which covers all Awk basic and advance usage with practical examples: <a href="https://www.tecmint.com/linux-awk-command-book-for-beginners/" target="_blank" rel="noopener noreferrer">Awk Getting Started Guide for Beginners</a></p>
+<h3 id="batch">batch Command</h3>
+<p><strong>batch</strong> is also used to schedule tasks to run a future time, similar to the <a href="https://www.tecmint.com/linux-cron-alternative-at-command-to-schedule-tasks/" target="_blank" rel="noopener noreferrer">at command</a>.</p>
+<h3 id="basename">basename Command</h3>
+<p><strong>basename</strong> command helps to print the name of a file stripping of directories in the absolute path:</p>
+<pre>$ basename bin/findhosts.sh
+</pre>
+<h3 id="bc">bc Command</h3>
+<p><strong>bc</strong> is a simple yet powerful and arbitrary precision CLI calculator language which can be used like this:</p>
+<pre>$ echo 20.05 + 15.00 | bc
+</pre>
+<h3 id="bg">bg Command</h3>
+<p><strong>bg</strong> is a command used to send a process to the background.</p>
+<pre>$ tar -czf home.tar.gz .
+$ bg 
+$ jobs
+</pre>
+<p>To learn more about bg command, read: <a href="https://www.tecmint.com/run-linux-command-process-in-background-detach-process/" target="_blank" rel="noopener noreferrer">Start Linux Command in Background and Detach Process in Terminal</a></p>
+<h3 id="bzip2">bzip2 Command</h3>
+<p><a href="https://www.tecmint.com/linux-compress-decompress-bz2-files-using-bzip2/" target="_blank" rel="noopener noreferrer">bzip2</a> command is used to compress or decompress file(s).</p>
+<pre>$ bzip2 -z filename      #Compress
+$ bzip2 -d filename.bz2  #Decompress
+</pre>
+<p>To learn more examples on bzip2, read: <a href="https://www.tecmint.com/linux-compress-decompress-bz2-files-using-bzip2/" target="_blank" rel="noopener noreferrer">How to Compress and Decompress a .bz2 File in Linux</a></p>
+<h3 id="cal">cal Command</h3>
+<p>The <strong>cal</strong> command print a calendar on the standard output.</p>
+<pre>$ cal
+</pre>
+<h3 id="cat">cat Command</h3>
+<p><a href="https://www.tecmint.com/13-basic-cat-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">cat command</a> is used to view contents of a file or concatenate files, or data provided on standard input, and display it on the standard output.</p>
+<pre>$ cat file.txt
+</pre>
+<p>To learn more about cat command, read: <a href="https://www.tecmint.com/13-basic-cat-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">13 Useful Cat Command Examples on Linux</a></p>
+<h3 id="chgrp">chgrp Command</h3>
+<p><strong>chgrp</strong> command is used to change the group ownership of a file. Provide the new group name as its first argument and the name of file as the second argument like this:</p>
+<pre>$ chgrp tecmint users.txt
+</pre>
+<h3 id="chmod">chmod Command</h3>
+<p><strong>chmod</strong> command is used to change/update file access permissions like this.</p>
+<pre>$ chmod +x sysinfo.sh
+</pre>
+<h3 id="chown">chown Command</h3>
+<p><strong>chown</strong> command changes/updates the user and group ownership of a file/directory like this.</p>
+<pre>$ chmod -R www-data:www-data /var/www/html
+</pre>
+<p>To learn more about chgrp, chmod and chwon commands, read: <a href="https://www.tecmint.com/manage-users-and-groups-in-linux/" target="_blank" rel="noopener noreferrer">Managing Users &amp; Groups, File Permissions &amp; Attributes in Linux</a></p>
+<h3 id="cksum">cksum Command</h3>
+<p><strong>cksum</strong> command is used to display the CRC checksum and byte count of an input file.</p>
+<pre>$ cksum README.txt
+</pre>
+<h3 id="clear">clear Command</h3>
+<p><strong>clear</strong> command lets you clear the terminal screen, simply type.</p>
+<pre>$ clear
+</pre>
+<h3 id="cmp">cmp Command</h3>
+<p><strong>cmp</strong> performs a byte-by-byte comparison of two files like this.</p>
+<pre>$ cmp file1 file2
+</pre>
+<h3 id="comm">comm Command</h3>
+<p><strong>comm</strong> command is used to compare two sorted files line-by-line as shown below.</p>
+<pre>$ comm file1 file2
+</pre>
+<h3 id="cp">cp Command</h3>
+<p><strong>cp</strong> command is used for copying files and directories from one location to another.</p>
+<pre>$ cp /home/tecmint/file1 /home/tecmint/Personal/
+</pre>
+<p>For more information on how to copy files in Linux, read:</p>
+<ol>
+<li><a href="https://www.tecmint.com/copy-file-to-multiple-directories-in-linux/" target="_blank" rel="noopener noreferrer">How to Copy a File to Multiple Directories in Linux</a></li>
+<li><a href="https://www.tecmint.com/advanced-copy-command-shows-progress-bar-while-copying-files/" target="_blank" rel="noopener noreferrer">Advanced Copy Command &#8211; Shows Progress Bar While Copying Large Files/Folders in Linux</a></li>
+<li><a href="https://www.tecmint.com/progress-monitor-check-progress-of-linux-commands/" target="_blank" rel="noopener noreferrer">Progress &#8211; A Tiny Tool to Monitor Progress for (cp, mv, dd, tar, etc.) Commands in Linux</a></li>
+</ol>
+<h3 id="date">date Command</h3>
+<p><strong>date</strong> command displays/sets the system date and time like this.</p>
+<pre>$ date
+$ date --set="8 JUN 2017 13:00:00"
+</pre>
+<p>To learn more about how to set date in Linux, read: <a href="https://www.tecmint.com/set-time-timezone-and-synchronize-time-using-timedatectl-command/" target="_blank" rel="noopener noreferrer">How to Set System Date in Linux</a></p>
+<h3 id="dd">dd Command</h3>
+<p><strong>dd</strong> command is used for copying files, converting and formatting according to flags provided on the command line. It can strip headers, extracting parts of binary files and so on.</p>
+<p>The example below shows creating a boot-able USB device:</p>
+<pre>$ dd if=/home/tecmint/kali-linux-1.0.4-i386.iso of=/dev/sdc1 bs=512M; sync
+</pre>
+<h3 id="df">df Command</h3>
+<p><a href="https://www.tecmint.com/how-to-check-disk-space-in-linux/" target="_blank" rel="noopener noreferrer">df command</a> is used to show file system disk space usage as follows.</p>
+<pre>$ df -h
+</pre>
+<p>For more usage on df command, read: <a href="https://www.tecmint.com/how-to-check-disk-space-in-linux/" target="_blank" rel="noopener noreferrer">12 Useful &#8216;df&#8217; Command Examples to Check Disk Space</a></p>
+<h3 id="diff">diff Command</h3>
+<p><a href="https://www.tecmint.com/compare-find-difference-between-two-directories-in-linux/" target="_blank" rel="noopener noreferrer">diff command</a> is used to compare two files line by line. It can also be used to <a href="https://www.tecmint.com/best-linux-file-diff-tools-comparison/" target="_blank" rel="noopener noreferrer">find the difference between two directories</a> in Linux like this:</p>
+<pre>$ diff file1 file2
+</pre>
+<p>Some useful diff tools for Linux: <a href="https://www.tecmint.com/best-linux-file-diff-tools-comparison/" target="_blank" rel="noopener noreferrer">8 Best File Comparison and Difference (Diff) Tools for Linux</a></p>
+<h3 id="dir">dir Command</h3>
+<p><a href="https://www.tecmint.com/linux-dir-command-usage-with-examples/" target="_blank" rel="noopener noreferrer">dir command</a> works like Linux <a href="https://www.tecmint.com/tag/linux-ls-command/" target="_blank" rel="noopener noreferrer">ls command</a>, it lists the contents of a directory.</p>
+<pre>$ dir
+</pre>
+<h3 id="dmidecode">dmidecode Command</h3>
+<p><a href="https://www.tecmint.com/how-to-get-hardware-information-with-dmidecode-command-on-linux/" target="_blank" rel="noopener noreferrer">dmidecode command</a> is a tool for retrieving hardware information of any Linux system. It dumps a computer’s DMI (a.k.a SMBIOS) table contents in a human-readable format for easy retrieval.</p>
+<p>To view your system hardware info, you can type:</p>
+<pre>$ sudo dmidecode --type system
+</pre>
+<p>Some useful tools to find out Linux system hardware info: <a href="https://www.tecmint.com/commands-to-collect-system-and-hardware-information-in-linux/" target="_blank" rel="noopener noreferrer">10 Useful Commands to Get Linux Hardware Information</a></p>
+<h3 id="du">du Command</h3>
+<p><a href="https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/" target="_blank" rel="noopener noreferrer">du command</a> is used to show disk space usage of files present in a directory as well as its sub-directories as follows.</p>
+<pre>$ du /home/aaronkilik
+</pre>
+<h3 id="echo">echo Command</h3>
+<p><a href="https://www.tecmint.com/echo-command-in-linux/" target="_blank" rel="noopener noreferrer">echo command</a> prints a text of line provided to it.</p>
+<pre>$ echo “This is TecMint - Linux How Tos”
+</pre>
+<h3 id="eject">eject Command</h3>
+<p><strong>eject command</strong> is used to eject removable media such as DVD/CD ROM or floppy disk from the system.</p>
+<pre>$ eject /dev/cdrom
+$ eject /mnt/cdrom/
+$ eject /dev/sda
+</pre>
+<h3 id="env">env Command</h3>
+<p><strong>env command</strong> lists all the current environment variables and used to set them as well.</p>
+<pre>$ env
+</pre>
+<p>Learn more on <a href="https://www.tecmint.com/set-unset-environment-variables-in-linux/" target="_blank" rel="noopener noreferrer">How to Set and Unset Environment Variables in Linux</a></p>
+<h3 id="exit">exit Command</h3>
+<p><strong>exit command</strong> is used to exit a shell like so.</p>
+<pre>$ exit
+</pre>
+<h3 id="expr">expr Command</h3>
+<p><strong>expr command</strong> is used to calculate an expression as shown below.</p>
+<pre>$ expr 20 + 30
+</pre>
+<h3 id="factor">factor Command</h3>
+<p><strong>factor command</strong> is used to show the prime factors of a number.</p>
+<pre>$ factor 10
+</pre>
+<h3 id="find">find Command</h3>
+<p><a href="https://www.tecmint.com/35-practical-examples-of-linux-find-command/" target="_blank" rel="noopener noreferrer">find command</a> lets you search for files in a directory as well as its sub-directories. It searches for files by attributes such as permissions, users, groups, file type, date, size and other possible criteria.</p>
+<pre>$ find /home/tecmint/ -name tecmint.txt
+</pre>
+<p>Learn more on how to find files in Linux:</p>
+<ol>
+<li><a href="https://www.tecmint.com/linux-find-command-to-search-multiple-filenames-extensions/" target="_blank" rel="noopener noreferrer">How to Use ‘find’ Command to Search for Multiple Filenames (Extensions)</a></li>
+<li><a href="https://www.tecmint.com/find-number-of-files-in-directory-subdirectories-linux/" target="_blank" rel="noopener noreferrer">How to Find Number of Files in a Directory and Subdirectories</a></li>
+<li><a href="https://www.tecmint.com/find-recent-modified-files-in-linux/" target="_blank" rel="noopener noreferrer">How to Find Today&#8217;s Modified Files in Linux</a></li>
+<li><a href="https://www.tecmint.com/find-and-sort-files-modification-date-and-time-in-linux/" target="_blank" rel="noopener noreferrer">How to Find and Sort Files Based on Modified Date and Time</a></li>
+<li><a href="https://www.tecmint.com/find-top-large-directories-and-files-sizes-in-linux/" target="_blank" rel="noopener noreferrer">How to Find Top Directories and Files (Disk Space) in Linux</a></li>
+</ol>
+<h3 id="free">free Command</h3>
+<p><a href="https://www.tecmint.com/check-memory-usage-in-linux/" target="_blank" rel="noopener noreferrer">free command</a> shows the system memory usage (free, used, swapped, cached, etc.) in the system including swap space. Use the<code> -h</code> option to display output in human friendly format.</p>
+<pre>$ free -h 
+</pre>
+<p>Learn more on how to find memory usage in Linux.</p>
+<ol>
+<li><a href="https://www.tecmint.com/find-linux-processes-memory-ram-cpu-usage/" target="_blank" rel="noopener noreferrer">Find Top Running Processes by Highest Memory and CPU Usage in Linux</a></li>
+<li><a href="https://www.tecmint.com/smem-linux-memory-usage-per-process-per-user/" target="_blank" rel="noopener noreferrer">Smem – Reports Memory Consumption Per-Process and Per-User Basis in Linux</a></li>
+<li><a href="https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/" target="_blank" rel="noopener noreferrer">How to Clear RAM Memory Cache, Buffer and Swap Space on Linux</a></li>
+</ol>
+<h3 id="grep">grep Command</h3>
+<p><a href="https://www.tecmint.com/12-practical-examples-of-linux-grep-command/" target="_blank" rel="noopener noreferrer">grep command</a> searches for a specified pattern in a file (or files) and displays in output lines containing that pattern as follows.</p>
+<pre>$ grep ‘tecmint’ domain-list.txt
+</pre>
+<p>Learn more about grep command usage in Linux.</p>
+<ol>
+<li><a href="https://www.tecmint.com/difference-between-grep-egrep-and-fgrep-in-linux/" target="_blank" rel="noopener noreferrer">What’s Difference Between Grep, Egrep and Fgrep in Linux?</a></li>
+<li><a href="https://www.tecmint.com/12-practical-examples-of-linux-grep-command/" target="_blank" rel="noopener noreferrer">12 Basic Linux &#8216;Grep&#8217; Command Examples in Linux</a></li>
+<li><a href="https://www.tecmint.com/linux-grep-commands-character-classes-bracket-expressions/" target="_blank" rel="noopener noreferrer">11 Advanced Linux ‘Grep’ Commands in Linux</a></li>
+</ol>
+<h3 id="groups">groups Command</h3>
+<p><strong>groups command</strong> displays all the names of groups a user is a part of like this.</p>
+<pre>$ groups
+$ groups tecmint
+</pre>
+<h3 id="gzip">gzip Command</h3>
+<p><a href="https://www.tecmint.com/increase-nginx-performance-enable-gzip-compression-module/" target="_blank" rel="noopener noreferrer">Gzip</a> helps to compress a file, replaces it with one having a <code>.gz</code> extension as shown below:</p>
+<pre>$ gzip passwds.txt
+$ cat file1 file2 | gzip &gt; foo.gz
+</pre>
+<h3 id="gunzip">gunzip Command</h3>
+<p><strong>gunzip</strong> expands or restores files compressed with <strong>gzip</strong> command like this.</p>
+<pre>$ gunzip foo.gz
+</pre>
+<h3 id="head">head Command</h3>
+<p><a href="https://www.tecmint.com/view-contents-of-file-in-linux/" target="_blank" rel="noopener noreferrer">head command</a> is used to show first lines (10 lines by default) of the specified file or stdin to the screen:</p>
+<pre># ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head 
+</pre>
+<h3 id="history">history Command</h3>
+<p><a href="https://www.tecmint.com/history-command-examples/" target="_blank" rel="noopener noreferrer">history command</a> is used to show previously used commands or to get info about command executed by a user.</p>
+<pre>$ history
+</pre>
+<p>Learn more about Linux history command.</p>
+<ol>
+<li><a href="https://www.tecmint.com/history-command-examples/" target="_blank" rel="noopener noreferrer">The Power of Linux “History Command” in Bash Shell</a></li>
+<li><a href="https://www.tecmint.com/display-linux-command-history-with-date-and-time/" target="_blank" rel="noopener noreferrer">Set Date and Time for Each Command You Execute in Bash History</a></li>
+<li><a href="https://www.tecmint.com/view-yum-history-to-find-packages-info/" target="_blank" rel="noopener noreferrer">How to Use ‘Yum History’ to Find Out Installed/Removed Packages Info</a></li>
+</ol>
+<h3 id="hostname">hostname Command</h3>
+<p><a href="https://www.tecmint.com/set-hostname-permanently-in-linux/" target="_blank" rel="noopener noreferrer">hostname command</a> is used to print or set system hostname in Linux.</p>
+<pre>$ hostname
+$ hostname NEW_HOSTNAME
+</pre>
+<h3 id="hostnamectl">hostnamectl Command</h3>
+<p><a href="https://www.tecmint.com/set-hostname-permanently-in-linux/" target="_blank" rel="noopener noreferrer">hostnamectl command</a> controls the system hostname under systemd. It is used to print or modify the system hostname and any related settings:</p>
+<pre>$ hostnamectl
+$ sudo hostnamectl set-hostname NEW_HOSTNAME
+</pre>
+<h3 id="hwclock">hwclock</h3>
+<p><strong>hwclock</strong> is a tool for managing the system hardware clock; read or set the hardware clock (RTC).</p>
+<pre>$ sudo hwclock
+$ sudo hwclock --set --date 8/06/2017
+</pre>
+<h3 id="hwinfo">hwinfo Command</h3>
+<p><a href="https://www.tecmint.com/check-linux-cpu-information/" target="_blank" rel="noopener noreferrer">hwinfo</a> is used to probe for the hardware present in a Linux system like this.</p>
+<pre>$ hwinfo
+</pre>
+<p>Learn more about how to get Linux hardware info.</p>
+<ol>
+<li><a href="https://www.tecmint.com/collect-linux-system-hardware-information/" target="_blank" rel="noopener noreferrer">I-Nex &#8211; An Advanced Tool to Collect System/Hardware Information in Linux</a></li>
+<li><a href="https://www.tecmint.com/check-linux-cpu-information/" target="_blank" rel="noopener noreferrer">9 Useful Tools to Get System Information in Linux</a></li>
+</ol>
+<h3 id="id">id Command</h3>
+<p><strong>id command</strong> shows user and group information for the current user or specified username as shown below.</p>
+<pre>$ id tecmint
+</pre>
+<h3 id="ifconfig">ifconfig Command</h3>
+<p><a href="https://www.tecmint.com/ifconfig-command-examples/" target="_blank" rel="noopener noreferrer">ifconfig command</a> is used to configure a Linux systems network interfaces. It is used to configure, view and control network interfaces.</p>
+<pre>$ ifconfig
+$ sudo ifconfig eth0 up
+$ sudo ifconfig eth0 down
+$ sudo ifconfig eth0 172.16.25.125
+</pre>
+<h3 id="ionice">ionice Command</h3>
+<p><a href="https://www.tecmint.com/delete-huge-files-in-linux/" target="_blank" rel="noopener noreferrer">ionice command</a> is used to set or view process I/O scheduling class and priority of the specified process.</p>
+<p>If invoked without any options, it will query the current I/O scheduling class and priority for that process:</p>
+<pre>$ ionice -c 3 rm /var/logs/syslog
+</pre>
+<p>To understand how it works, read this article: <a href="https://www.tecmint.com/delete-huge-files-in-linux/" target="_blank" rel="noopener noreferrer">How to Delete HUGE (100-200GB) Files in Linux</a></p>
+<h3 id="iostat">iostat Command</h3>
+<p><a href="https://www.tecmint.com/linux-performance-monitoring-with-vmstat-and-iostat-commands/" target="_blank" rel="noopener noreferrer">iostat</a> is used to show CPU and input/output statistics for devices and partitions. It produces useful reports for updating system configurations to help balance the input/output load between physical disks.</p>
+<pre>$ iostat 
+</pre>
+<h3 id="ip">ip Command</h3>
+<p><a href="https://www.tecmint.com/ip-command-examples/" target="_blank" rel="noopener noreferrer">ip command</a> is used to display or manage routing, devices, policy routing and tunnels. It also works as a replacement for well known <a href="https://www.tecmint.com/ifconfig-command-examples/" target="_blank" rel="noopener noreferrer">ifconfig command</a>.</p>
+<p>This command will assign an IP address to a specific interface (eth1 in this case).</p>
+<pre>$ sudo ip addr add 192.168.56.10 dev eth1
+</pre>
+<h3 id="iptables">iptables Command</h3>
+<p><a href="https://www.tecmint.com/linux-iptables-firewall-rules-examples-commands/" target="_blank" rel="noopener noreferrer">iptables is a terminal based firewall</a> for managing incoming and outgoing traffic via a set of configurable table rules.</p>
+<p>The command below is used to check existing rules on a system (using it may require root privileges).</p>
+<pre>$ sudo iptables -L -n -v
+</pre>
+<p>Learn more about iptables firewall in Linux.</p>
+<ol>
+<li><a href="https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall/" target="_blank" rel="noopener noreferrer">How to Start/Stop and Enable/Disable FirewallD and Iptables in Linux</a></li>
+<li><a href="https://www.tecmint.com/basic-guide-on-iptables-linux-firewall-tips-commands/" target="_blank" rel="noopener noreferrer">Basic Guide on IPTables (Linux Firewall) Tips / Commands</a></li>
+<li><a href="https://www.tecmint.com/linux-firewall-iptables-interview-questions-and-answers/" target="_blank" rel="noopener noreferrer">Nishita Agarwal Shares Her Interview Experience on Linux ‘iptables’ Firewall</a></li>
+</ol>
+<h3 id="iw">iw Command</h3>
+<p><strong>iw command</strong> is used to manage wireless devices and their configuration.</p>
+<pre>$ iw list 
+</pre>
+<h3 id="iwlist">iwlist Command</h3>
+<p><strong>iwlist command</strong> displays detailed wireless information from a wireless interface. The command below enables you to get detailed information about the <strong>wlp1s0</strong> interface.</p>
+<pre>$ iwlist wlp1s0 scanning
+</pre>
+<h3 id="kill">kill Command</h3>
+<p><a href="https://www.tecmint.com/how-to-kill-a-process-in-linux/" target="_blank" rel="noopener noreferrer">kill command</a> is used to kill a process using its PID by sending a signal to it (default signal for kill is TERM).</p>
+<pre>$ kill -p 2300
+$ kill -SIGTERM -p 2300
+</pre>
+<h3 id="killall">killall Command</h3>
+<p><a href="https://www.tecmint.com/how-to-kill-a-process-in-linux/" target="_blank" rel="noopener noreferrer">killall command</a> is used to kill a process by its name.</p>
+<pre>$ killall firefox
+</pre>
+<p>Learn more about kill and killall command in Linux.</p>
+<ol>
+<li><a href="https://www.tecmint.com/how-to-kill-a-process-in-linux/" target="_blank" rel="noopener noreferrer">How to Find and Kill Running Processes in Linux</a></li>
+<li><a href="https://www.tecmint.com/how-to-kill-a-process-in-linux/" target="_blank" rel="noopener noreferrer">A Guide to Kill, Pkill and Killall Commands to Terminate a Process</a></li>
+<li><a href="https://www.tecmint.com/kill-processes-unresponsive-programs-in-ubuntu/" target="_blank" rel="noopener noreferrer">How to Kill Processes/Unresponsive Applications Using ‘xkill’ Command</a></li>
+</ol>
+<h3 id="kmod">kmod Command</h3>
+<p><strong>kmod command</strong> is used to manage Linux kernel modules. To list all currently loaded modules, type.</p>
+<pre>$ kmod list
+</pre>
+<h3 id="last">last Command</h3>
+<p><strong>last command</strong> display a listing of last logged in users.</p>
+<pre>$ last 
+</pre>
+<h3 id="ln">ln Command</h3>
+<p><strong>ln command</strong> is used to create a soft link between files using the <code>-s</code> flag like this.</p>
+<pre>$ ln -s /usr/bin/lscpu cpuinfo
+</pre>
+<h3 id="locate">locate Command</h3>
+<p><a href="https://www.tecmint.com/linux-locate-command-practical-examples/" target="_blank" rel="noopener noreferrer">locate command</a> is used to find a file by name. The locate utility works better and faster than it’s <strong>find</strong> counterpart.</p>
+<p>The command below will search for a file by its exact name (not *name*):</p>
+<pre>$ locate -b '\domain-list.txt'
+</pre>
+<h3 id="login">login Command</h3>
+<p><strong>login command</strong> is used to create a new session with the system. You’ll be asked to provide a username and a password to login as below.</p>
+<pre>$ sudo login
+</pre>
+<h3 id="ls">ls Command</h3>
+<p><a href="https://www.tecmint.com/15-basic-ls-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">ls command</a> is used to list contents of a directory. It works more or less like <a href="https://www.tecmint.com/linux-dir-command-usage-with-examples/" target="_blank" rel="noopener noreferrer">dir command</a>.</p>
+<p>The <code>-l</code> option enables long listing format like this.</p>
+<pre>$ ls -l file1
+</pre>
+<p>To know more about ls command, read our guides.</p>
+<ol>
+<li><a href="https://www.tecmint.com/15-basic-ls-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">15 Basic ‘ls’ Command Examples in Linux</a></li>
+<li><a href="https://www.tecmint.com/linux-ls-command-tricks/" target="_blank" rel="noopener noreferrer">7 Quirky ‘ls’ Command Tricks Every Linux User Should Know</a></li>
+<li><a href="https://www.tecmint.com/sort-ls-output-by-last-modified-date-and-time/" target="_blank" rel="noopener noreferrer">How to Sort Output of ‘ls’ Command By Last Modified Date and Time</a></li>
+<li><a href="https://www.tecmint.com/ls-command-interview-questions/" target="_blank" rel="noopener noreferrer">15 Interview Questions on Linux “ls” Command – Part 1</a></li>
+<li><a href="https://www.tecmint.com/ls-interview-questions/" target="_blank" rel="noopener noreferrer">10 Useful ‘ls’ Command Interview Questions – Part 2</a></li>
+</ol>
+<h3 id="lshw">lshw Command</h3>
+<p><a href="https://www.tecmint.com/commands-to-collect-system-and-hardware-information-in-linux/" target="_blank" rel="noopener noreferrer">lshw command</a> is a minimal tool to get detailed information on the hardware configuration of the machine, invoke it with superuser privileges to get a comprehensive information.</p>
+<pre>$ sudo lshw  
+</pre>
+<h3 id="lscpu">lscpu Command</h3>
+<p><a href="https://www.tecmint.com/check-linux-cpu-information/" target="_blank" rel="noopener noreferrer">lscpu command</a> displays system&#8217;s CPU architecture information (such as number of CPUs, threads, cores, sockets, and more).</p>
+<pre>$ lscpu
+</pre>
+<h3 id="lsof">lsof Command</h3>
+<p><a href="https://www.tecmint.com/10-lsof-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">lsof command</a> displays information related to files opened by processes. Files can be of any type, including regular files, directories, block special files, character special files, executing text reference, libraries, and stream/network files.</p>
+<p>To view files opened by a specific user’s processes, type the command below.</p>
+<pre>$ lsof -u tecmint
+</pre>
+<h3 id="lsusb">lsusb Command</h3>
+<p><a href="https://www.tecmint.com/commands-to-collect-system-and-hardware-information-in-linux/" target="_blank" rel="noopener noreferrer">lsusb command</a> shows information about USB buses in the system and the devices connected to them like this.</p>
+<pre>$ lsusb 
+</pre>
+<h3 id="man">man Command</h3>
+<p><strong>man command</strong> is used to view the on-line reference manual pages for commands/programs like so.</p>
+<pre>$ man du
+$ man df
+</pre>
+<h3 id="md5sum">md5sum Command</h3>
+<p><a href="https://www.tecmint.com/check-verify-md5sum-packages-files-in-linux/" target="_blank" rel="noopener noreferrer">md5sum command</a> is used to <a href="https://www.tecmint.com/generate-verify-check-files-md5-checksum-linux/" target="_blank" rel="noopener noreferrer">compute and print the MD5 message digest of a file</a>. If run without arguments, debsums checks every file on your system against the stock md5sum files:</p>
+<pre>$ sudo debsums
+</pre>
+<h3 id="mkdir">mkdir Command</h3>
+<p><a href="https://www.tecmint.com/mkdir-tar-and-kill-commands-in-linux/" target="_blank" rel="noopener noreferrer">mkdir command</a> is used to create single or more directories, if they do not already exist (this can be overridden with the <code>-p</code> option).</p>
+<pre>$ mkdir tecmint-files
+OR 
+$ mkdir -p tecmint-files
+</pre>
+<h3 id="more">more Command</h3>
+<p><a href="https://www.tecmint.com/linux-more-command-and-less-command-examples/" target="_blank" rel="noopener noreferrer">more command</a> enables you to view through relatively lengthy text files one screenful at a time.</p>
+<pre>$ more file.txt
+</pre>
+<p>Check difference between <strong>more</strong> and <strong>less</strong> command and <a href="https://www.tecmint.com/linux-more-command-and-less-command-examples/" target="_blank" rel="noopener noreferrer">Learn Why ‘less’ is Faster Than ‘more’ Command</a></p>
+<h3 id="mv">mv Command</h3>
+<p><strong>mv command</strong> is used to <a href="https://www.tecmint.com/rename-multiple-files-in-linux/" target="_blank" rel="noopener noreferrer">rename files or directories</a>. It also moves a file or directory to another location in the directory structure.</p>
+<pre>$ mv test.sh sysinfo.sh 
+</pre>
+<h3 id="nano">nano Command</h3>
+<p><strong>nano</strong> is a popular small, free and friendly <a href="https://www.tecmint.com/best-open-source-linux-text-editors/" target="_blank" rel="noopener noreferrer">text editor for Linux</a>; a clone of <strong>Pico</strong>, the default editor included in the non-free Pine package.</p>
+<p>To open a file using nano, type:</p>
+<pre>$ nano file.txt
+</pre>
+<h3 id="nc/netcat">nc/netcat Command</h3>
+<p><strong>nc (or netcat)</strong> is used for performing any operation relating to TCP, UDP, or UNIX-domain sockets. It can handle both IPv4 and IPv6 for opening TCP connections, sending UDP packets, listening on arbitrary TCP and UDP ports, <a href="https://www.tecmint.com/check-remote-port-in-linux/" target="_blank" rel="noopener noreferrer">performing port scanning</a>.</p>
+<p>The command below will help us see if the port 22 is open on the host 192.168.56.5.</p>
+<pre>$ nc -zv 192.168.1.5 22
+</pre>
+<p>Learn more examples and usage on <strong>nc command</strong>.</p>
+<ol>
+<li><a href="https://www.tecmint.com/check-remote-port-in-linux/" target="_blank" rel="noopener noreferrer">How to Check Remote Ports are Reachable Using &#8216;nc&#8217; Command</a></li>
+<li><a href="https://www.tecmint.com/transfer-files-between-two-linux-machines/" target="_blank" rel="noopener noreferrer">How to Transfer Files Between Computers Using &#8216;nc&#8217; Command</a></li>
+</ol>
+<h3 id="netstat">netstat Command</h3>
+<p><a href="https://www.tecmint.com/20-netstat-commands-for-linux-network-management/" target="_blank" rel="noopener noreferrer">netstat command</a> displays useful information concerning the Linux networking subsystem (network connections, routing tables, interface statistics, masquerade connections, and multicast memberships).</p>
+<p>This command will display all open ports on the local system:</p>
+<pre>$ netstat -a | more
+</pre>
+<h3 id="nice">nice Command</h3>
+<p><strong>nice command</strong> is used to show or change the nice value of a running program. It runs specified command with an adjusted niceness. When run without any command specified, it prints the current niceness.</p>
+<p>The following command starts the process &#8220;<a href="https://www.tecmint.com/18-tar-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">tar command</a>&#8221; setting the &#8220;nice&#8221; value to 12.</p>
+<pre>$ nice -12 tar -czf backup.tar.bz2 /home/*
+</pre>
+<h3 id="nmap">nmap Command</h3>
+<p><a href="https://www.tecmint.com/nmap-command-examples/" target="_blank" rel="noopener noreferrer">nmap</a> is a popular and powerful open source tool for network scanning and security auditing. It was intended to quickly scan large networks, but it also works fine against single hosts.</p>
+<p>The command below will probe open ports on all live hosts on the specified network.</p>
+<pre>$ nmap -sV 192.168.56.0/24
+</pre>
+<h3 id="nproc">nproc Command</h3>
+<p><strong>nproc command</strong> shows the number of processing units present to the current process. It’s output may be less than the number of online processors on a system.</p>
+<pre>$ nproc  
+</pre>
+<h3 id="openssl">openssl Command</h3>
+<p>The <strong>openssl</strong> is a command line tool for using the different cryptography operations of OpenSSL&#8217;s crypto library from the shell. The command below will create an archive of all files in the current directory and <a href="https://www.tecmint.com/encrypt-decrypt-files-tar-openssl-linux/" target="_blank" rel="noopener noreferrer">encrypt the contents of the archive</a> file:</p>
+<pre>$ tar -czf - * | openssl enc -e -aes256 -out backup.tar.gz
+</pre>
+<h3 id="passwd">passwd Command</h3>
+<p><strong>passwd command</strong> is used to create/update passwords for user accounts, it can also change the account or associated password validity period. Note that normal system users may only change the password of their own account, while root may modify the password for any account.</p>
+<pre>$ passwd tecmint
+</pre>
+<h3 id="pidof">pidof Command</h3>
+<p><strong>pidof</strong> displays the <a href="https://www.tecmint.com/find-process-name-pid-number-linux/" target="_blank" rel="noopener noreferrer">process ID of a running program</a>/command.</p>
+<pre>$ pidof init
+$ pidof cinnamon
+</pre>
+<h3 id="ping">ping Command</h3>
+<p><strong>ping command</strong> is used to determine connectivity between hosts on a network (or the Internet):</p>
+<pre>$ ping google.com
+</pre>
+<h3 id="ps">ps Command</h3>
+<p>ps shows useful information about <a href="https://www.tecmint.com/linux-process-management/" target="_blank" rel="noopener noreferrer">active processes running on a system</a>. The example below shows the <a href="https://www.tecmint.com/find-linux-processes-memory-ram-cpu-usage/" target="_blank" rel="noopener noreferrer">top running processes by highest memory and CPU usage</a>.</p>
+<pre># ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
+</pre>
+<h3 id="pstree">pstree Command</h3>
+<p><strong>pstree</strong> displays running processes as a tree which is rooted at either PID or init if PID is omitted.</p>
+<pre>$ pstree
+</pre>
+<h3 id="pwd">pwd Command</h3>
+<p><a href="https://www.tecmint.com/pwd-command-examples/" target="_blank" rel="noopener noreferrer">pwd command</a> displays the name of current/working directory as below.</p>
+<pre>$ pwd
+</pre>
+<h3 id="rdiff-backup">rdiff-backup Command</h3>
+<p><a href="https://www.tecmint.com/rdiff-backup-remote-incremental-backup-for-linux/" target="_blank" rel="noopener noreferrer">rdiff-backup</a> is a powerful local/remote incremental backup script written in Python. It works on any POSIX operating system such as Linux, Mac OS X.</p>
+<p>Note that for remote backups, you must install the same version of rdiff-backup on both the local and remote machines. Below is an example of a local backup command:</p>
+<pre>$ sudo rdiff-backup /etc /media/tecmint/Backup/server_etc.backup
+</pre>
+<h3 id="reboot">reboot Command</h3>
+<p><strong>reboot command</strong> may be used to <a href="https://www.tecmint.com/shutdown-poweroff-halt-and-reboot-commands-in-linux/" target="_blank" rel="noopener noreferrer">halt, power-off or reboot a system</a> as follows.</p>
+<pre>$ reboot
+</pre>
+<h3 id="rename">rename Command</h3>
+<p><a href="https://www.tecmint.com/rename-multiple-files-in-linux/" target="_blank" rel="noopener noreferrer">rename command</a> is used to rename many files at once. If you’ve a collection of files with “<strong>.html</strong>” extension and you want to rename all of them with “<strong>.php</strong>” extension, you can type the command below.</p>
+<pre>$ rename 's/\.html$/\.php/' *.html
+</pre>
+<h3 id="rm">rm command</h3>
+<p><strong>rm command</strong> is used to remove files or directories as shown below.</p>
+<pre>$ rm file1
+$ rm -rf my-files
+</pre>
+<h3 id="rmdir">rmdir Command</h3>
+<p><strong>rmdir command</strong> helps to delete/remove empty directories as follows.</p>
+<pre>$ rmdir /backup/all
+</pre>
+<h3 id="scp">scp Command</h3>
+<p><a href="https://www.tecmint.com/scp-commands-examples/" target="_blank" rel="noopener noreferrer">scp command</a> enables you to securely copy files between hosts on a network, for example.</p>
+<pre>$ scp ~/names.txt <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="80f2efeff4c0b1b9b2aeb1b6b8aeb5b6aeb1b0">[email&#160;protected]</a>:/root/names.txt
+</pre>
+<h3 id="shutdown">shutdown Command</h3>
+<p><a href="https://www.tecmint.com/shutdown-poweroff-halt-and-reboot-commands-in-linux/" target="_blank" rel="noopener noreferrer">shutdown command</a> schedules a time for the system to be powered down. It may be used to halt, power-off or reboot the machine like this.</p>
+<pre>$ shutdown --poweroff
+</pre>
+<p>Learn how to show a <a href="https://www.tecmint.com/show-linux-server-shutdown-message/" target="_blank" rel="noopener noreferrer">Custom Message to Users Before Linux Server Shutdown</a>.</p>
+<h3 id="sleep">sleep Command</h3>
+<p><strong>sleep command</strong> is used to delay or pause (specifically execution of a command) for a specified amount of time.</p>
+<pre>$ check.sh; sleep 5; sudo apt update
+</pre>
+<h3 id="sort">sort Command</h3>
+<p><a href="https://www.tecmint.com/sort-command-linux/" target="_blank" rel="noopener noreferrer">sort command</a> is used to sort lines of text in the specified file(s) or from stdin as shown below</p>
+<pre>$ cat words.txt
+</pre>
+<p>Learn more examples of sort command in Linux.</p>
+<ol>
+<li><a href="https://www.tecmint.com/linux-sort-command-examples/" target="_blank" rel="noopener noreferrer">7 Interesting Linux ‘sort’ Command Examples</a></li>
+<li><a href="https://www.tecmint.com/sort-ls-output-by-last-modified-date-and-time/" target="_blank" rel="noopener noreferrer">How to Sort Output of ‘ls’ Command By Last Modified Date and Time</a></li>
+<li><a href="https://www.tecmint.com/find-and-sort-files-modification-date-and-time-in-linux/" target="_blank" rel="noopener noreferrer">How to Find and Sort Files Based on Modification Date and Time</a></li>
+</ol>
+<h3 id="split">split Command</h3>
+<p><a href="https://www.tecmint.com/split-large-tar-into-multiple-files-of-certain-size/" target="_blank" rel="noopener noreferrer">split</a> as the name suggests, is used to split a large file into small parts.</p>
+<pre>$ tar -cvjf backup.tar.bz2 /home/tecmint/Documents/* 
+</pre>
+<h3 id="ssh">ssh Command</h3>
+<p><a href="https://www.tecmint.com/install-openssh-server-in-linux/" target="_blank" rel="noopener noreferrer">ssh (SSH client)</a> is an application for remotely accessing and running commands on a remote machine. It is designed to offer a secure encrypted communications between two untrusted hosts over an insecure network such as the Internet.</p>
+<pre>$ ssh <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ce8f9fff1f5f2e8dcada5aeb2adaaa4b2a9aab2adac">[email&#160;protected]</a>
+</pre>
+<p>Learn more about ssh command and how to use it on Linux.</p>
+<ol>
+<li><a href="https://www.tecmint.com/5-best-practices-to-secure-and-protect-ssh-server/" target="_blank" rel="noopener noreferrer">5 Best Practices to Secure and Protect SSH Server</a></li>
+<li><a href="https://www.tecmint.com/ssh-passwordless-login-with-putty/" target="_blank" rel="noopener noreferrer">Configure “No Password SSH Keys Authentication” with PuTTY on Linux</a></li>
+<li><a href="https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/" target="_blank" rel="noopener noreferrer">SSH Passwordless Login Using SSH Keygen in 5 Easy Steps</a></li>
+<li><a href="https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/" target="_blank" rel="noopener noreferrer">Restrict SSH User Access to Certain Directory Using Chrooted Jail</a></li>
+</ol>
+<h3 id="stat">stat Command</h3>
+<p>stat is used to show a file or file system status like this (<code>-f</code> is used to specify a filesystem).</p>
+<pre>$ stat file1
+</pre>
+<h3 id="su">su Command</h3>
+<p><strong>su command</strong> is used to switch to another user ID or become root during a login session. Note that when <strong>su</strong> is invoked without a username, it defaults to becoming root.</p>
+<pre>$ su 
+$ su tecmint
+</pre>
+<h3 id="sudo">sudo Command</h3>
+<p><a href="https://www.tecmint.com/sudoers-configurations-for-setting-sudo-in-linux/" target="_blank" rel="noopener noreferrer">sudo command</a> allows a permitted system user to run a command as root or another user, as defined by the security policy such as sudoers.</p>
+<p>In this case, the real (not effective) user ID of the user running <strong>sudo</strong> is used to determine the user name with which to query the security policy.</p>
+<pre>$ sudo apt update
+$ sudo useradd tecmint
+$ sudo passwd tecmint
+</pre>
+<p>Learn more about sudo command and how to use it on Linux.</p>
+<ol>
+<li><a href="https://www.tecmint.com/sudoers-configurations-for-setting-sudo-in-linux/" target="_blank" rel="noopener noreferrer">10 Useful Sudoers Configurations for Setting ‘sudo’ in Linux</a></li>
+<li><a href="https://www.tecmint.com/run-sudo-command-without-password-linux/" target="_blank" rel="noopener noreferrer">How to Run ‘sudo’ Command Without Entering a Password in Linux</a></li>
+<li><a href="https://www.tecmint.com/set-sudo-password-timeout-session-longer-linux/" target="_blank" rel="noopener noreferrer">How to Keep ‘sudo’ Password Timeout Session Longer in Linux</a></li>
+</ol>
+<h3 id="sum">sum Command</h3>
+<p><strong>sum command</strong> is used to show the checksum and block counts for each each specified file on the command line.</p>
+<pre>$ sum output file.txt 
+</pre>
+<h3 id="tac">tac Command</h3>
+<p><a href="https://www.tecmint.com/learn-linux-cat-command-and-tac-command/" target="_blank" rel="noopener noreferrer">tac command</a> concatenates and displays files in reverse. It simply prints each file to standard output, showing last line first.</p>
+<pre>$tac file.txt
+</pre>
+<h3 id="tail">tail Command</h3>
+<p><a href="https://www.tecmint.com/view-contents-of-file-in-linux/" target="_blank" rel="noopener noreferrer">tail command</a> is used to display the last lines (10 lines by default) of each file to standard output.</p>
+<p>If there more than one file, precede each with a header giving the file name. Use it as follow (specify more lines to display using <code>-n</code> option).</p>
+<pre>$ tail long-file
+OR
+$ tail -n 15 long-file
+</pre>
+<h3 id="talk">talk Command</h3>
+<p><strong>talk command</strong> is used to talk to another system/network user. To talk to a user on the same machine, use their login name, however, to talk to a user on another machine use ‘<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ec999f899eac84839f98">[email&#160;protected]</a>’.</p>
+<pre>$ talk person [ttyname]
+OR
+$ talk‘<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b5c0c6d0c7f5dddac6c1">[email&#160;protected]</a>’ [ttyname]
+</pre>
+<h3 id="tar">tar Command</h3>
+<p><a href="https://www.tecmint.com/18-tar-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">tar command</a> is a most powerful utility for archiving files in Linux.</p>
+<pre>$ tar -czf home.tar.gz .
+</pre>
+<p>Learn more about tar command and its usage on Linux.</p>
+<ol>
+<li><a href="https://www.tecmint.com/18-tar-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">18 Tar Command Examples in Linux</a></li>
+<li><a href="https://www.tecmint.com/split-large-tar-into-multiple-files-of-certain-size/" target="_blank" rel="noopener noreferrer">How to Split Large ‘tar’ Archive into Multiple Files of Certain Size</a></li>
+<li><a href="https://www.tecmint.com/extract-tar-files-to-specific-or-different-directory-in-linux/" target="_blank" rel="noopener noreferrer">How to Extract Tar Files to Specific or Different Directory in Linux</a></li>
+</ol>
+<h3 id="tee">tee Command</h3>
+<p><strong>tee command</strong> is used to read from standard input and prints to standard output and files as shown below.</p>
+<pre>$ echo "Testing how tee command works" | tee file1 
+</pre>
+<h3 id="time">time Command</h3>
+<p><strong>time command</strong> runs programs and summarizes system resource usage.</p>
+<pre>$ time wc /etc/hosts
+</pre>
+<h3 id="top">top Command</h3>
+<p><a href="https://www.tecmint.com/12-top-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">top program</a> displays all processes on a Linux system in regards to memory and CPU usage and provides a dynamic real-time view of a running system.</p>
+<pre>$ top
+</pre>
+<h3 id="touch">touch Command</h3>
+<p><a href="https://www.tecmint.com/8-pratical-examples-of-linux-touch-command/" target="_blank" rel="noopener noreferrer">touch command</a> changes file timestamps, it can also be used to create a file as follows.</p>
+<pre>$ touch file.txt
+</pre>
+<h3 id="tr">tr Command</h3>
+<p><strong>tr command</strong> is a useful utility used to translate (change) or delete characters from stdin, and write the result to stdout or send to a file as follows.</p>
+<pre>$ cat domain-list.txt | tr [:lower:] [:upper:]
+</pre>
+<h3 id="uname">uname Command</h3>
+<p><a href="https://www.tecmint.com/find-linux-kernel-version-distribution-name-version-number/" target="_blank" rel="noopener noreferrer">uname command</a> displays system information such as operating system, network node hostname kernel name, version and release etc.</p>
+<p>Use the <code>-a</code> option to show all the system information:</p>
+<pre>$ uname 
+</pre>
+<h3 id="uniq">uniq Command</h3>
+<p><strong>uniq command</strong> displays or omits repeated lines from input (or standard input). To indicate the number of occurrences of a line, use the <code>-c</code> option.</p>
+<pre>$ cat domain-list.txt
+</pre>
+<h3 id="uptime">uptime Command</h3>
+<p><a href="https://www.tecmint.com/find-linux-uptime-shutdown-and-reboot-time-with-tuptime/" target="_blank" rel="noopener noreferrer">uptime command</a> shows how long the system has been running, number of logged on users and the system load averages as follows.</p>
+<pre>$ uptime
+</pre>
+<h3 id="users">users Command</h3>
+<p><strong>users command</strong> shows the user names of users currently logged in to the current host like this.</p>
+<pre>$ users
+</pre>
+<h3 id="vim/vi">vim/vi Command</h3>
+<p><a href="https://www.tecmint.com/reasons-to-learn-vi-vim-editor-in-linux/" target="_blank" rel="noopener noreferrer">vim (Vi Improved) popular text editor</a> on Unix-like operating systems. It can be used to edit all kinds of plain text and program files.</p>
+<pre>$ vim file
+</pre>
+<p>Learn how to use vi/vim editor in Linux along with some tips and tricks.</p>
+<ol>
+<li><a href="https://www.tecmint.com/reasons-to-learn-vi-vim-editor-in-linux/" target="_blank" rel="noopener noreferrer">10 Reasons Why You Should Use Vi/Vim Editor in Linux</a></li>
+<li><a href="https://www.tecmint.com/vi-editor-usage/" target="_blank" rel="noopener noreferrer">How to Install and Use Vi/Vim Editor in Linux</a></li>
+<li><a href="https://www.tecmint.com/python-mode-a-vim-editor-plugin/" target="_blank" rel="noopener noreferrer">How to Save a File in Vim Editor in Linux</a></li>
+<li><a href="https://www.tecmint.com/exit-file-in-vi-vim-editor-in-linux/" target="_blank" rel="noopener noreferrer">How to Exit a File in Vim Editor in Linux</a></li>
+<li><a href="https://www.tecmint.com/learn-vi-and-vim-editor-tips-and-tricks-in-linux/" target="_blank" rel="noopener noreferrer">Learn Useful ‘Vi/Vim’ Editor Tips and Tricks to Enhance Your Skills</a></li>
+<li><a href="https://www.tecmint.com/how-to-use-vi-and-vim-editor-in-linux/" target="_blank" rel="noopener noreferrer">8 Interesting ‘Vi/Vim’ Editor Tips and Tricks for Every Linux Administrator</a></li>
+</ol>
+<h3 id="w">w Command</h3>
+<p><strong>w command</strong> displays system uptime, load averages and information about the users currently on the machine, and what they are doing (their processes) like this.</p>
+<pre>$ w
+</pre>
+<h3 id="wall">wall Command</h3>
+<p><strong>wall command</strong> is used to send/display a message to all users on the system as follows.</p>
+<pre>$ wall “This is TecMint – Linux How Tos”
+</pre>
+<h3 id="watch">watch Command</h3>
+<p><a href="https://www.tecmint.com/run-repeat-linux-command-every-x-seconds/" target="_blank" rel="noopener noreferrer">watch command</a> runs a program repeatedly while displaying its output on fullscreen. It can also be used to watch changes to a file/directory. The example below shows how to watch the contents of a directory change.</p>
+<pre>$ watch -d ls -l
+</pre>
+<h3 id="wc">wc Command</h3>
+<p><a href="https://www.tecmint.com/wc-command-examples/" target="_blank" rel="noopener noreferrer">wc command</a> is used to display newline, word, and byte counts for each file specified, and a total for many files.</p>
+<pre>$ wc filename
+</pre>
+<h3 id="wget">wget Command</h3>
+<p><a href="https://www.tecmint.com/10-wget-command-examples-in-linux/" target="_blank" rel="noopener noreferrer">wget command</a> is a simple utility used to download files from the Web in a non-interactive (can work in the background) way.</p>
+<pre>$ wget -c http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz
+</pre>
+<h3 id="whatis">whatis Command</h3>
+<p><a href="https://www.tecmint.com/find-linux-command-description-and-location/" target="_blank" rel="noopener noreferrer">whatis command</a> searches and shows a short or one-line manual page descriptions of the provided command name(s) as follows.</p>
+<pre>$ whatis wget
+</pre>
+<h3 id="which">which Command</h3>
+<p><strong>which command</strong> displays the absolute path (pathnames) of the files (or possibly links) which would be executed in the current environment.</p>
+<pre>$ which who
+</pre>
+<h3 id="who">who Command</h3>
+<p><strong>who command</strong> shows information about users who are currently logged in like this.</p>
+<pre>$ who
+</pre>
+<h3 id="whereis">whereis Command</h3>
+<p><a href="https://www.tecmint.com/find-linux-command-description-and-location/" target="_blank" rel="noopener noreferrer">whereis command</a> helps us locate the binary, source and manual files for commands.</p>
+<pre>$ whereis cat
+</pre>
+<h3 id="xargs">xargs Command</h3>
+<p><strong>xargs command</strong> is a useful utility for reading items from the standard input, delimited by blanks (protected with double or single quotes or a backslash) or newlines, and executes the entered command.</p>
+<p>The example below show xargs being used to <a href="https://www.tecmint.com/copy-file-to-multiple-directories-in-linux/" target="_blank" rel="noopener noreferrer">copy a file to multiple directories in Linux</a>.</p>
+<pre>$ echo /home/aaronkilik/test/ /home/aaronkilik/tmp | xargs -n 1 cp -v /home/aaronkilik/bin/sys_info.sh
+</pre>
+<h3 id="yes">yes Command</h3>
+<p><strong>yes command</strong> is used to display a string repeatedly until when terminated or killed using [<code>Ctrl + C</code>] as follows.</p>
+<pre>$ yes "This is TecMint - Linux HowTos"
+</pre>
+<h3 id="youtube-dl">youtube-dl Command</h3>
+<p><a href="https://www.tecmint.com/install-youtube-dl-command-line-video-download-tool/" target="_blank" rel="noopener noreferrer">youtube-dl</a> is a lightweight command-line program to download videos and also <a href="https://www.tecmint.com/download-mp3-track-from-youtube-video-using-youtube-dl/" target="_blank" rel="noopener noreferrer">extract MP3 tracks from YouTube.com</a> and a few more sites.</p>
+<p>The command below will list available formats for the video in the provided link.</p>
+<pre>$ youtube-dl --list-formats https://www.youtube.com/watch?v=iR
+</pre>
+<h3 id="zcmp/zdiff">zcmp/zdiff Command</h3>
+<p><strong>zcmp</strong> and <strong>zdiff</strong> minimal utilities used to compare compressed files as shown in the examples below.</p>
+<pre>$ zcmp domain-list.txt.zip basic_passwords.txt.zip
+$ zdiff domain-list.txt.zip basic_passwords.txt.zip 
+</pre>
+<h3 id="zip">zip Command</h3>
+<p><strong>zip</strong> is a simple and easy-to-use utility used to package and compress (archive) files.</p>
+<pre>$ tar cf - . | zip | dd of=/dev/nrst0 obs=16k
+$ zip inarchive.zip foo.c bar.c --out outarchive.zip
+$ tar cf - .| zip backup -
+</pre>
+<h3 id="zz">zz Command</h3>
+<p><strong>zz command</strong> is an alias of the <a href="https://www.tecmint.com/fasd-quick-access-to-linux-files-and-directories/" target="_blank" rel="noopener noreferrer">fasd commandline tool </a> that offers quick access to files and directories in Linux. It is used to quickly and interactively <a href="https://www.tecmint.com/bd-quickly-go-back-to-a-linux-parent-directory/" target="_blank" rel="noopener noreferrer">cd into a previously accessed directory</a> by selecting the directory number from the first field as follows.</p>
+<pre>$ zz
+</pre>
+<p>That’s it for now! As we mentioned before, there are a countless number of commands in Linux. The list is possibly longer than we can offer. Use the feedback form below to share any useful and frequently used commands missing in this list.</p>
+</div>
+
+</body>
+</html>

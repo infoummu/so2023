@@ -14,3 +14,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+.jekyll-cache*
+Gemfile
+Gemfile.lock
+file_exclude_rsync.txt

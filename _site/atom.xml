@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Sistem Operasi</title>
+ <link href="http://0.0.0.0:4005/atom.xml" rel="self"/>
+ <id>http://0.0.0.0:4005</id>
+ <updated>2023-03-19T23:23:52-05:00</updated>
+ <author>
+   <name>Info UMMU Ternate</name>
+   <uri>https://infoummu.github.io/so2023/</uri>
+   <email>elyas.uii14@gmail.com</email>
+ </author>
+
+ 
+
+ <entry>
+   <title>Contoh Halaman Tugas - Sejarah Sistem Operasi - 20001</title>
+   <link href="http://0.0.0.0:4005/tugas-20001"/>
+   <id>http://0.0.0.0:4005/tugas-20001</id>
+   <updated>2023-03-16T00:00:00-05:00</updated>
+   <content type="html">&lt;h3 id=&quot;sejarah-sistem-operasi&quot;&gt;Sejarah Sistem Operasi&lt;/h3&gt; &lt;p&gt;Isi dengan Materi Pengantar seputar apa itu Cybercrime (Kira-kira 250 sampai 300 kata)&lt;/p&gt; &lt;h3 id=&quot;1-1890-awal-sistem-operasi&quot;&gt;1. 1890 Awal Sistem Operasi&lt;/h3&gt; &lt;p&gt;Isi dengan Materi seputar apa itu Sejarah Awal mula &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sistem Operasi&lt;/code&gt;, Kira-kira 250 sampai 300 kata (lebih dari 300 boleh tapi jangan sampai lebih dari 500 kata)&lt;/p&gt; &lt;h3 id=&quot;2-sejarah-windows&quot;&gt;2. Sejarah Windows&lt;/h3&gt; &lt;p&gt;Isi dengan Materi seputar apa itu &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Seputar Sejarah Microsoft Windows&lt;/code&gt;, Kira-kira 250 sampai 300 kata (lebih dari 200 boleh tapi jangan sampai lebih dari 500 kata)&lt;/p&gt; &lt;h3 id=&quot;3-sejarah-linux&quot;&gt;3. Sejarah Linux&lt;/h3&gt; &lt;p&gt;Isi dengan...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Pertemuan 03 - Sistem Operasi</title>
+   <link href="http://0.0.0.0:4005/KuliahSO_P3"/>
+   <id>http://0.0.0.0:4005/KuliahSO_P3</id>
+   <updated>2022-03-16T00:00:00-05:00</updated>
+   <content type="html">&lt;h2 id=&quot;pengganti-pertemuan-tiga-03---tugas&quot;&gt;PENGGANTI PERTEMUAN TIGA 03 - TUGAS:&lt;/h2&gt; &lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Status&lt;/td&gt; &lt;td&gt;: Online&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Waktu&lt;/td&gt; &lt;td&gt;: 03/11/2023&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Tema&lt;/td&gt; &lt;td&gt;: Sistem Operasi&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Pertemuan&lt;/td&gt; &lt;td&gt;: Pertemuan Ke-3&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;h3 id=&quot;buat-artikel-tentang-sejarah-sistem-operasi&quot;&gt;Buat Artikel Tentang &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sejarah Sistem Operasi&lt;/code&gt;&lt;/h3&gt; &lt;ol&gt; &lt;li&gt;Untuk Pengganti Pertemuan ke-3, anda diminta untuk membuat Artikel dengan materi tentang &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sejarah Sistem Operasi&lt;/code&gt; dengan ISI MATERI : &lt;ol&gt; &lt;li&gt;Sejarah Sistem Operasi&lt;/li&gt; &lt;li&gt;Perkembangan Sistem Operasi&lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt;Tulis Materi dengan mengikuti format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; sesuai dengan file yang saya sharing berikut ini: &lt;b&gt;&lt;a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Pertemuan 02 - Sistem Operasi</title>
+   <link href="http://0.0.0.0:4005/KuliahSO_P2"/>
+   <id>http://0.0.0.0:4005/KuliahSO_P2</id>
+   <updated>2022-03-16T00:00:00-05:00</updated>
+   <content type="html">&lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Status&lt;/td&gt; &lt;td&gt;: Online&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Waktu&lt;/td&gt; &lt;td&gt;: 03/13/2023&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Tema&lt;/td&gt; &lt;td&gt;: Sistem Operasi - Sejarah Sistem Operasi&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Pertemuan&lt;/td&gt; &lt;td&gt;: Pertemuan Ke-2&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;h4 id=&quot;tugas-sistem-operasi&quot;&gt;Tugas Sistem Operasi&lt;/h4&gt; &lt;h4 id=&quot;1-buat-infografis-tentang-sejarah-sistem-operasi&quot;&gt;1. Buat InfoGrafis tentang Sejarah Sistem Operasi&lt;/h4&gt; &lt;ol&gt; &lt;li&gt;Buat INFOGRAFIK dengan TEMA tentang “Sejarah Sistem Operasi”&lt;/li&gt; &lt;li&gt;Cari Materi tentang “Sejarah Sistem Operasi” dan buat kesimpulnya berupa poin-point dalam bentuk INFOGRAFIK yang menarik, beberapa materi seperti: &lt;ol&gt; &lt;li&gt;Sejarah Sistem Operasi&lt;/li&gt; &lt;li&gt;Perkembangan Sistem Operasi&lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt;Simpan File Hasilnya dalam format Gambar &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PNG&lt;/code&gt;, dengan Nama...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Pertemuan 01 - Sistem Operasi</title>
+   <link href="http://0.0.0.0:4005/KuliahSO_P1"/>
+   <id>http://0.0.0.0:4005/KuliahSO_P1</id>
+   <updated>2022-03-06T00:00:00-06:00</updated>
+   <content type="html">&lt;h2 id=&quot;pertemuan-pertama-01-&quot;&gt;PERTEMUAN PERTAMA 01 :&lt;/h2&gt; &lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Status&lt;/td&gt; &lt;td&gt;: Offline&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Waktu&lt;/td&gt; &lt;td&gt;: 30/09/2022&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;MK&lt;/td&gt; &lt;td&gt;: SISTEM OPERASI - P1&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Tema&lt;/td&gt; &lt;td&gt;: Arahan dan Kontrak Kuliah&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;h3 id=&quot;variabel-dan-persentase-penilaian-&quot;&gt;Variabel dan Persentase Penilaian :&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;Absen : 40 % &lt;ul&gt; &lt;li&gt;Absen Untuk Pertemuan Online dihitung berdasarkan yang mengumpulkan file Tugas Pengganti Pertemuan yang di-Onlinekan&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;Tugas : 40 % &lt;ul&gt; &lt;li&gt;Tugas yang AKAN DINILAI adalah tugas yang dikerjakan dan dikumpulkan SESUAI DENGAN KETENTUAN, dan dikupul ke &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Google Drive&lt;/code&gt; : &lt;a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Examples Pages - SO</title>
+   <link href="http://0.0.0.0:4005/examples-pages"/>
+   <id>http://0.0.0.0:4005/examples-pages</id>
+   <updated>2020-10-16T00:00:00-05:00</updated>
+   <content type="html">&lt;!-- *********************** --&gt; &lt;ul class=&quot;tree&quot;&gt; &lt;li&gt; Giant planets ccccc &lt;ul&gt; &lt;li&gt;Ice giants &lt;ul&gt; &lt;li&gt;Uranus&lt;/li&gt; &lt;li&gt;Neptune&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;hr /&gt; &lt;ul class=&quot;tree&quot;&gt; &lt;li&gt; &lt;details open=&quot;&quot;&gt; &lt;summary&gt;Level 1 - Forensik Digital&lt;/summary&gt; &lt;p&gt; Requires a computer running an operating system. The computer must have some memory and ideally some kind of long-term storage. An input device as well as some form of output device is recommended. &lt;ul&gt; &lt;li&gt; &lt;details open=&quot;&quot;&gt; &lt;summary&gt;Level 2 - System Requirements 0&lt;/summary&gt; &lt;p&gt; Requires a computer running an operating system. The computer must have some memory...</content>
+ </entry>
+
+ 
+
+</feed>

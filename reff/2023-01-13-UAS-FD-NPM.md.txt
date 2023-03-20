@@ -1,0 +1,21 @@
+## contoh format file MARKDOWN, copy lengkap isi file/teks dan ikuti ARAHAN, setelah itu HAPUS BARIS INI
+---
+title: UAS Forensik Digital - NPM
+category: UAS
+author: NAMA_ANDA - NPM
+published: true
+---
+
+
+## Digital Forensik dan Tahapan-Tahapanya
+
+### Digital Forensik 
+Isi dengan Materi dan Poin-poin seputar Forensik Digital (Kisaran 200 sampai 300 kata)
+
+### Tahapan-Tahapan Forensik Digital
+
+Isi dengan Materi dan Poin-poin seputar Tahapan-Tahapan Forensik Digital (Kisaran 300 sampai 500 kata)
+
+
+
+

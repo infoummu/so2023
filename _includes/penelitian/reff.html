@@ -1,0 +1,26 @@
+<html>
+<body>
+
+<b>Kode : </b><input type="text" id="svdo1" value="" placeholder="Paste URL disini !" style="height: 24px; width: 300px;"> &nbsp; <button onclick="gantisrc('svdo1','svdo2')">Goo!</button>
+<br><br>
+<!--
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" frameborder="0" height="400" src="http://play.lk21.me/play/out?movie=gifted-2017&size=720&server=0&key=TndnaEtBU2xqcFprb1pzWks3aDEwZz09&ip=210.101.131.231" width="600"></iframe>
+-->
+
+<video width="600" controls class="video">
+  <source src="http://play.lk21.me/play/out?movie=gifted-2017&size=720&server=0&key=TndnaEtBU2xqcFprb1pzWks3aDEwZz09&ip=210.101.131.231" type="video/mp4" id="svdo2">
+</video>
+
+<h5> Contoh Video Lain </h5>
+
+<video width="600" controls class="video">
+  <source src="https://www.youtube.com/watch?v=v6eC-CH8UG4" type="video/mp4" id="svdo3">
+</video>
+<script>
+$(document).ready(function(){
+		$('.video').click(function(){this.paused?this.play():this.pause();});
+});
+</script>
+</body>
+</html>
+

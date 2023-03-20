@@ -1,0 +1,163 @@
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="generator" content="Jekyll">
+
+	<title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  	<meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+	<!-- CSS & fonts -->
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
+
+
+	<!-- RSS -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="img/cantik-icon.png">
+
+
+ <!-- Tambahan include JQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/hijricalendar-kuwaiti.js"></script>
+	<script src="js/modulku.js"></script>
+
+ <!-- Tambahan baru 27-04-2019 getos.js -->
+	<script src="js/getos.js"></script>
+
+ <!-- Tambahan Untuk PAGE*/index.html
+
+ -->
+	<link rel="shortcut icon" type="image/png" href="../img/cantik-icon.png">
+
+	{% seo %}
+
+<!--
+***************************
+*** ADD DATE 16/12/2022 *** -->
+	<style>
+		.tree{
+			--spacing : 1.5rem;
+			--radius  : 10px;
+		}
+
+		.tree li{
+			display      : block;
+			position     : relative;
+			padding-left : calc(2 * var(--spacing) - var(--radius) - 2px);
+		}
+
+		.tree ul{
+			margin-left  : calc(var(--radius) - var(--spacing));
+			padding-left : 0;
+		}
+
+		.tree ul li{
+			border-left : 2px solid #ddd;
+		}
+
+		.tree ul li:last-child{
+		border-color : transparent;
+		}
+
+		.tree ul li::before{
+			content      : '';
+			display      : block;
+			position     : absolute;
+			top          : calc(var(--spacing) / -2);
+			left         : -2px;
+			width        : calc(var(--spacing) + 2px);
+			height       : calc(var(--spacing) + 1px);
+			border       : solid #ddd;
+			border-width : 0 0 2px 2px;
+		}
+
+		.tree summary{
+			display : block;
+			cursor  : pointer;
+		}
+
+		.tree summary::marker,
+		.tree summary::-webkit-details-marker{
+			display : none;
+		}
+
+		.tree summary:focus{
+			outline : none;
+		}
+
+		.tree summary:focus-visible{
+			outline : 1px dotted #000;
+		}
+
+		.tree li::after,
+		.tree summary::before{
+			content       : '';
+			display       : block;
+			position      : absolute;
+			top           : calc(var(--spacing) / 2 - var(--radius));
+			left          : calc(var(--spacing) - var(--radius) - 1px);
+			width         : calc(2 * var(--radius));
+			height        : calc(2 * var(--radius));
+			border-radius : 50%;
+			background    : #ddd;
+		}
+
+		.tree summary::before{
+			content     : '+';
+			z-index     : 1;
+			background  : #696;
+			color       : #fff;
+			line-height : calc(2 * var(--radius) - 2px);
+			text-align  : center;
+		}
+
+		.tree details[open] > summary::before{
+			content : '-';
+			background  : grey;
+			color       : #fff;
+		}
+
+		/* ************** */
+		/* ************** */
+
+		details {
+			font: 16px "Open Sans", Calibri, sans-serif;
+			/* width: 620px; */
+		}
+
+		details > summary {
+			padding: 2px 4px;
+			width: 25em;
+			/* background-color: rgb(238, 235, 235); */
+			border: none;
+			/* box-shadow: 3px 3px 4px black; */
+			cursor: pointer auto;
+			font: 18px "Open Sans", Calibri, sans-serif;
+			margin: 0;
+			font-weight: bolder;
+		}
+
+		details > p {
+			border-radius: 0 0 10px 10px;
+			/* background-color: rgb(255, 255, 255); */
+			padding: 6px 8px;
+			margin: 0;
+			/* box-shadow: 3px 3px 4px black; */
+		}
+
+		/* details[open] > summary {
+			background-color: rgb(255, 255, 255);
+		} */
+
+		img {
+			margin-left  : 8px; /* calc(var(--radius) - var(--spacing)); */
+			/* padding-left : 10px; */
+			/* border: dotted grey; */
+		}
+	</style>
+<!--
+***************************
+*** ADD DATE 16/12/2022 *** -->
+</head>

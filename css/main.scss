@@ -1,0 +1,303 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+//Import
+@import "base", "mixin", "typography", "layout", "syntax.scss", "custom.scss";
+.rkanan {
+    float: right;
+    //alignt: right;
+    //margin: right;
+}
+.rkiri {
+    float: left;
+    //align: left;
+    //margin: left;
+}
+
+// div untuk dua kolom
+.wrapper{
+    overflow:hidden;
+    padding-bottom:10px;
+	padding-top: 0.3cm
+
+}
+.first{
+    float:left;
+    height:100%;
+    width:30%;
+	border-right:0px solid grey;
+}
+.second{
+	float: right;
+	height:100%;
+	width: 35%;
+	//padding-left: 0.6cm;
+}
+
+.tengah{
+	display: inline-block;
+	width: 30%;
+	padding-left: 1cm;
+}
+
+.kate1{
+    float:left;
+    height:100%;
+    width:50%;
+	border-right:0px solid grey;
+}
+.kate2{
+	//float: right;
+	display: inline-block;
+	width: 49%;
+	padding-left: 1.6cm;
+}
+
+.tm{ // vertical text in the middle
+    margin: auto;
+	vertical-align: middle;
+}
+.nob{
+	border: 0px;
+	// border-bottom: 0px; // solid gray;
+}
+//--- diambil dari modulku.html
+.table {
+    display: table;
+}
+
+.row {
+    display: table-row;
+	margin: auto;
+	border-bottom: 1px solid gray; // ORIGINAL
+	// border-bottom: 0px solid gray;
+}
+.rowb{
+	border-bottom: 1px solid gray;  // ORIGINAL
+	// border-bottom: 0px solid gray;
+	margin: auto;
+	padding: 4px;
+}
+.column, .no, .judul, .namap, .abstrak, .fpdf{
+    display: table-cell;
+    vertical-align: top;
+	border: 0px solid gray;
+	padding: 6px;
+	border-left:0px solid gray;
+	border-bottom: 0px solid gray;
+}
+.columnb {
+    vertical-align: top;
+	border: 0px solid gray;
+	padding: 6px;
+	border-left:0px solid gray;
+	border-bottom: 0px solid gray;
+}
+.no, .judul, .namap, .abstrak, .fpdf{
+	border-bottom: 1px solid gray;
+	font-weight: bold;
+}
+.no{
+	width: auto;
+}
+
+.judul{
+	width: 24%;
+}
+.namap{
+	width: 18%;
+}
+.abstrak{
+	width: 45%;
+}
+.fpdf{
+	width: 12%;
+}
+
+.hd{
+	display: none;
+}
+.hds{
+	/*display: block;*/
+	display: inline;
+	font-weight: bold;
+}
+.fontJD{
+	font-weight: bold;
+	font-size: 28px;
+}
+//======untuk tulisan Arab=====
+.divr{
+	direction:RTL;
+	padding-top: 14px;
+	padding-right: 40px;
+	font-size: 18px;
+	border-top: 1px solid grey;
+}
+.rr{
+	direction:RTL;
+	margin-bottom:10px;
+}
+.ar{
+	font-size: 22px;
+}
+.arx {
+	font-size: 26px;
+	//cursor: pointer;
+}
+.arxx {
+	font-size: 30px;
+}
+
+.ll {
+	font-size: 15px;
+}
+.arxx, .arx, .idx {
+	color:crimson;
+	font-weight: bold;
+}
+.ar{
+	font-weight: 570;
+	
+}
+ul {
+margin-right: 16px;
+}
+.arxx, .arx, .ar{
+	font-family: 'KacstLetter';
+	//border-top:0.5px solid #C0C0C0;
+	direction:RTL;
+	unicode-bidi:embed;
+	//====================
+	//font-weight: bold;
+	text-align: right;
+	margin-left:0px;
+	margin-bottom:10px;
+	background-color:#f2f2f2;
+	border-radius:8px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	padding:10px 18px;
+	padding-top:10px;
+}
+//=====Untuk TABEL STYLE======
+table, td, th {
+    border: 0px solid #ddd;
+    text-align: left;
+}
+table {
+    	border-collapse: collapse;
+    	width: 100%;
+}
+th, td {
+    	/*padding: 12px;*/
+    	padding: 6px;
+		vertical-align: top;
+		// border-bottom: 1px solid #ddd; //ORIGINAL
+		border-bottom: 1px solid #ddd; 
+}
+a {
+	cursor: pointer; cursor: hand; 
+}
+a:hover{
+color:#6699ff;
+}
+.divtable {
+	padding-top: 1cm;
+}
+//=====Untuk Button go to top====
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 16px;
+  right: 12px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  opacity:0.6;
+  color: black;
+  cursor: pointer;  
+  border-radius: 7px;
+
+}
+
+#myBtn:hover {
+  	//background-color: darkgray;
+  	background-color: #6699ff;
+	opacity:0.8;
+}
+
+#imgMyBtn{
+	padding: 2px;	
+	align:auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+
+//--- Untuk link tambahan di bawah
+
+#myBtnEx {
+  display: none;
+  position: fixed;
+  bottom: 66px;
+  right: 12px;
+  border: none;
+  outline: none;
+  //background-color: gray;
+  //opacity:0.2;
+  color: black;
+  cursor: pointer;  
+  //border-radius: 7px;
+  text-align: right;
+}
+#btxx:hover{
+	font-weight: bold;
+	//color:blue;
+	color:#6699ff;
+	}
+#myBtnEx:hover {
+	//font-weight: bold;
+	//color:blue;
+  	//background-color: darkgray;
+	//opacity:0.4;
+
+}
+//--- END - Untuk link tambahan di bawah
+
+//--- UNTUK BOX DIV --------
+.gdiv{
+	//background-color:#eee;
+	padding:6px 12px;
+
+}
+.id, .idx {
+		border-top:0.5px solid #C0C0C0;	
+}
+.tocContainer, .id{
+	margin-left:0px;
+	margin-bottom:10px;
+	background-color:#eee;
+	border-radius:4px;
+	-webkit-border-radius:0px; 
+	-moz-border-radius:0px;
+	padding:7px 16px;
+	padding-top:7px;
+}
+//--- radius (-web & -moz) untuk sudut div ----
+.idx{
+  font-size: 20px;
+	margin-left:0px;
+	margin-bottom:10px;
+	background-color:#eee;
+	border-radius:4px;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	padding:7px 16px;
+	padding-top:7px;
+}
+//--- Untuk IFRAME ---
+iframe {width: 100%; height: 600px; border: none;}

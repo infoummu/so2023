@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="generator" content="Jekyll">
+
+	<title>Archive</title>
+  	<meta name="description" content="This page displays all posts.">
+
+	<!-- CSS & fonts -->
+	<link rel="stylesheet" href="/so2023/css/main.css">
+
+
+	<!-- RSS -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="img/cantik-icon.png">
+
+
+ <!-- Tambahan include JQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/hijricalendar-kuwaiti.js"></script>
+	<script src="js/modulku.js"></script>
+
+ <!-- Tambahan baru 27-04-2019 getos.js -->
+	<script src="js/getos.js"></script>
+
+ <!-- Tambahan Untuk PAGE*/index.html
+
+ -->
+	<link rel="shortcut icon" type="image/png" href="../img/cantik-icon.png">
+
+	<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Archive | Sistem Operasi</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Archive" />
+<meta name="author" content="Info UMMU Ternate" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This page displays all posts." />
+<meta property="og:description" content="This page displays all posts." />
+<link rel="canonical" href="http://0.0.0.0:4005/so2023/archive" />
+<meta property="og:url" content="http://0.0.0.0:4005/so2023/archive" />
+<meta property="og:site_name" content="Sistem Operasi" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Archive" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Info UMMU Ternate","url":"https://infoummu.github.io/so2023/"},"description":"This page displays all posts.","headline":"Archive","url":"http://0.0.0.0:4005/so2023/archive"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!--
+***************************
+*** ADD DATE 16/12/2022 *** -->
+	<style>
+		.tree{
+			--spacing : 1.5rem;
+			--radius  : 10px;
+		}
+
+		.tree li{
+			display      : block;
+			position     : relative;
+			padding-left : calc(2 * var(--spacing) - var(--radius) - 2px);
+		}
+
+		.tree ul{
+			margin-left  : calc(var(--radius) - var(--spacing));
+			padding-left : 0;
+		}
+
+		.tree ul li{
+			border-left : 2px solid #ddd;
+		}
+
+		.tree ul li:last-child{
+		border-color : transparent;
+		}
+
+		.tree ul li::before{
+			content      : '';
+			display      : block;
+			position     : absolute;
+			top          : calc(var(--spacing) / -2);
+			left         : -2px;
+			width        : calc(var(--spacing) + 2px);
+			height       : calc(var(--spacing) + 1px);
+			border       : solid #ddd;
+			border-width : 0 0 2px 2px;
+		}
+
+		.tree summary{
+			display : block;
+			cursor  : pointer;
+		}
+
+		.tree summary::marker,
+		.tree summary::-webkit-details-marker{
+			display : none;
+		}
+
+		.tree summary:focus{
+			outline : none;
+		}
+
+		.tree summary:focus-visible{
+			outline : 1px dotted #000;
+		}
+
+		.tree li::after,
+		.tree summary::before{
+			content       : '';
+			display       : block;
+			position      : absolute;
+			top           : calc(var(--spacing) / 2 - var(--radius));
+			left          : calc(var(--spacing) - var(--radius) - 1px);
+			width         : calc(2 * var(--radius));
+			height        : calc(2 * var(--radius));
+			border-radius : 50%;
+			background    : #ddd;
+		}
+
+		.tree summary::before{
+			content     : '+';
+			z-index     : 1;
+			background  : #696;
+			color       : #fff;
+			line-height : calc(2 * var(--radius) - 2px);
+			text-align  : center;
+		}
+
+		.tree details[open] > summary::before{
+			content : '-';
+			background  : grey;
+			color       : #fff;
+		}
+
+		/* ************** */
+		/* ************** */
+
+		details {
+			font: 16px "Open Sans", Calibri, sans-serif;
+			/* width: 620px; */
+		}
+
+		details > summary {
+			padding: 2px 4px;
+			width: 25em;
+			/* background-color: rgb(238, 235, 235); */
+			border: none;
+			/* box-shadow: 3px 3px 4px black; */
+			cursor: pointer auto;
+			font: 18px "Open Sans", Calibri, sans-serif;
+			margin: 0;
+			font-weight: bolder;
+		}
+
+		details > p {
+			border-radius: 0 0 10px 10px;
+			/* background-color: rgb(255, 255, 255); */
+			padding: 6px 8px;
+			margin: 0;
+			/* box-shadow: 3px 3px 4px black; */
+		}
+
+		/* details[open] > summary {
+			background-color: rgb(255, 255, 255);
+		} */
+
+		img {
+			margin-left  : 8px; /* calc(var(--radius) - var(--spacing)); */
+			/* padding-left : 10px; */
+			/* border: dotted grey; */
+		}
+	</style>
+<!--
+***************************
+*** ADD DATE 16/12/2022 *** -->
+</head>
+
+
+<body>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	<nav id="nav">
+	<div id="nav-list">
+		<a href="/so2023//">Home</a>
+		<!-- <a href="KuliahFD.html">Home</a> -->
+
+    <!-- Nav links -->
+	  <!-- { include link.html }  -->
+
+	<!-- Nav pages -->
+	  
+	    
+	  
+	    
+	      <a href="/so2023//archive" title="Archive">Archive</a> 
+	    
+	  
+	    
+	  
+	    
+	      <a href="/so2023//categories" title="All Post">All Post</a> 
+	    
+	  
+	    
+	  
+	    
+	      <a href="/so2023//linkcolection" title="Links">Links</a> 
+	    
+	  
+	    
+	  
+	    
+	      <a href="/so2023//me" title="About">About</a> 
+	    
+	  
+	    
+	      <a href="/so2023//penelitian" title="Penelitian">Penelitian</a> 
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+    
+
+
+	 <!-- MANUAL TAMBAH LINK  -->
+	 <!-- <a href="categories.html" title="All POst" ><h2 class="header-link">All Post</h2></a> |  
+	 <a href="linkcolection.html" title="Collection " ><h2 class="header-link">Link Collection</h2></a> |
+	 <a href="thelist" title="TheList" ><h2 class="header-link">TheList</h2></a> |    
+	 <a href="me.html" title="About" ><h2 class="header-link">About</h2></a> 
+ -->
+      	 <!-- MANUAL TAMBAH LINK  -->
+		<!-- 
+			<a href="http://0.0.0.0:4005/KuliahFD.html">Home</a> |    
+		<a href="http://0.0.0.0:4005/categories.html" title="All POst" >Materi</a> |  
+		<a href="http://0.0.0.0:4005/archive.html" title="All Post" >Archive</a> | 
+		<a href="http://0.0.0.0:4005/linkcolection.html" title="Collection ">Link Collection</a> |
+		<a href="http://0.0.0.0:4005/me.html" title="About" >About</a>  
+	-->
+	<!-- 
+	<a href="http://0.0.0.0:4005/so2023/KuliahFD.html">Home</a> |    
+	<a href="http://0.0.0.0:4005/so2023/categories.html" title="All POst" >Materi</a> |  
+	<a href="http://0.0.0.0:4005/so2023/archive.html" title="All Post" >Archive</a> | 
+	<a href="http://0.0.0.0:4005/so2023/linkcolection.html" title="Collection ">Link Collection</a> |
+	<a href="http://0.0.0.0:4005/so2023/me.html" title="About" >About</a>  -->
+	</div>
+  
+  <!-- Nav footer -->
+	
+	  <footer>
+	
+	<span>version 1.0.0</span>
+
+</footer>
+	
+
+</nav>
+
+    
+    <!-- Icon menu -->
+	  <a id="nav-menu">
+	  	<div id="menu"></div>
+	  </a>
+
+      <!-- Header -->
+      
+        <header id="header" class="parent justify-spaceBetween">
+  <div class="inner w100 relative">
+<!--
+    <span class="f-left">  
+      <a href="/so2023//">
+        <h1>
+          Ikhwan<span>Elyas</span> 
+        </h1>
+      </a>
+    </span>
+-->
+    <span class="f-left">  
+      <a href="/so2023//"  |site.baseurl : /so2023/ | site.url : http://0.0.0.0:4005>
+        <h1>
+          Sistem<span>Operasi</span> 
+        </h1>
+      </a>
+    </span>
+    <span id="nav-links" class="absolute right bottom">
+      <!-- Nav links -->
+
+	    <!-- { include link.html }  -->
+
+      <!-- Nav pages -->
+
+
+      	 <!-- MANUAL TAMBAH LINK  -->
+        <!-- <a href="categories.html" title="All POst" >All Post</a> |  
+        <a href="linkcolection.html" title="Collection ">Link Collection</a> |
+        <a href="thelist" title="TheList" >TheList</a> |    
+        <a href="me.html" title="About" >About</a>  -->
+
+      	 <!-- MANUAL TAMBAH LINK  -->
+         <!-- 
+          <a href="KuliahFD.html">Home</a> |    
+         <a href="categories.html" title="Categories" >Materi</a> |  
+         <a href="archive.html" title="All Post" >Archive</a> |  
+         <a href="linkcolection.html" title="Collection ">Link Collection</a> |
+         <a href="me.html" title="About" >About</a>  
+
+        <a href="http://0.0.0.0:4005/so2023/KuliahFD.html">Home</a> |    
+        <a href="http://0.0.0.0:4005/so2023/categories.html" title="All POst" >Materi</a> |  
+        <a href="http://0.0.0.0:4005/so2023/archive.html" title="All Post" >Archive</a> | 
+        <a href="http://0.0.0.0:4005/so2023/linkcolection.html" title="Collection ">Link Collection</a> |
+        <a href="http://0.0.0.0:4005/so2023/me.html" title="About" >About</a> 
+        -->
+        
+        <a href="http://0.0.0.0:4005/so2023/index.html">Home</a> |    
+        <a href="http://0.0.0.0:4005/so2023/categories.html" title="All POst" >Materi</a> |  
+        <a href="http://0.0.0.0:4005/so2023/archive.html" title="All Post" >Archive</a> | 
+        <a href="http://0.0.0.0:4005/so2023/linkcolection.html" title="Collection ">Link Collection</a> |
+        <a href="http://0.0.0.0:4005/so2023/me.html" title="About" >About</a> 
+      
+    </span>
+  </div>
+</header>
+<div onclick="topFunction()" id="myBtn" title="Go to top X" >
+	<img id="imgMyBtn" src="img/top-icon-25-512.png" height="36px" width="36px">
+</div>
+
+<div id="myBtnEx" >
+
+</div>
+
+<!-- <div id="myBtnEx" >
+	<a href="/KuliahFD.html" title="Home" id="btxx">Home</a><br />
+	<a href="/linkcolection" title="Links" id="btxx">Links</a><br />
+	<a href="/me" title="About" id="btxx">About</a><br />
+</div> -->
+      
+
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
+
+			<article id="page">
+	
+  <h3 id="archive-of-all-post-">Archive of All Post :</h3>
+<!-- 
+*********************************************
+FOR FD 2022  
+*********************************************
+-->
+
+<!-- 
+*********************************************
+EXPERIMENT 2 : ??
+*********************************************
+-->
+<!-- { if post.title == "Cybercrime Forensik Digital -" } -->
+<ul>
+    
+
+        <li>
+            <a href="/so2023//tugas-20001">16 March 2023 - Contoh Halaman Tugas - Sejarah Sistem Operasi - 20001 [ Ikhwan N. Elyas (Nama Penulis) ] </a>
+        </li>
+
+
+    
+
+        <li>
+            <a href="/so2023//KuliahSO_P3">16 March 2022 - Pertemuan 03 - Sistem Operasi [ Ikhwan N. Elyas ] </a>
+        </li>
+
+
+    
+
+        <li>
+            <a href="/so2023//KuliahSO_P2">16 March 2022 - Pertemuan 02 - Sistem Operasi [ Ikhwan N. Elyas ] </a>
+        </li>
+
+
+    
+
+        <li>
+            <a href="/so2023//KuliahSO_P1">6 March 2022 - Pertemuan 01 - Sistem Operasi [ Ikhwan N. Elyas ] </a>
+        </li>
+
+
+    
+
+        <li>
+            <a href="/so2023//examples-pages">16 October 2020 - Examples Pages - SO [ Anonimous ] </a>
+        </li>
+
+
+    
+</ul>
+
+<hr />
+<p>By: Ikhwan@fedora37.linux</p>
+
+
+</article>
+
+	 	</main>
+		
+		  <!-- Pagination links -->
+<!--      -->
+
+	<hr>
+
+
+	  </div>
+	    
+	    <!-- Footer -->
+	    <footer>
+
+	<span>© 2023</span> 
+	<span>
+		<a href="http://0.0.0.0:4005/">Sistem_Operasi</a> | 
+		<a href="https://github.com/infoummu/infoummu.github.io" target="_blank">github</a> 
+		<!-- <a href="https://infoummu.github.io/qweb/" target="_blank">AyatPilihan</a> -->
+	</span> 
+</footer>
+
+
+<!-- original script :
+| <a href="https://ForensikDigital.blogspot.co.id/" target="_blank">Blog</a>
+<footer><span>@2017 -  <a href="/so2023//">ForensikDigital</a> | <a href="https://github.com/infoummu/infoummu.github.io" target="_blank">github</a> </span> | <a href="https://ForensikDigital.blogspot.co.id/" target="_blank">Blog</a>
+</footer>
+-->
+
+
+	    <!-- Script -->
+      <script src="/so2023/js/main.js"></script>	
+
+
+	</div>
+</body>
+</html>

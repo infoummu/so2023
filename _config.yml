@@ -1,0 +1,47 @@
+# Site settings
+title: Sistem Operasi
+description: "Halaman MK Sistem Operasi"
+url: "https://infoummu.github.io/so2023"
+author:
+  name: "Info UMMU Ternate"
+  email: "elyas.uii14@gmail.com"
+  url: "https://infoummu.github.io/so2023/"
+
+# Build settings
+# baseurl: /infoummu.github.io
+baseurl: /so2023/
+# Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+#paginate: 12
+#paginate_path: /page:num/
+#port: 9005
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+#gems:
+plugins:
+#  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+#-------------
+# custom_header: true
+# custom_nav_footer: true
+# reverse: true
