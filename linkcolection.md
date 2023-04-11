@@ -11,6 +11,12 @@ Berikut merupakan beberapa file yang menjadi referensi mata kuliah Sistem Operas
 {% include files_colec.html folder="reff/materi" %}
 
 
+***
 
+    {% include files_colec.html folder="reff/materi" %}
+
+
+***
+By: Ikhwan@fedora37.linux
 
 
