@@ -22,14 +22,16 @@ EXPERIMENT 2 : ??
     {% for post in site.posts %}
 
         <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%-d %B %Y" }} - {{ post.title }} [ {{ post.author }} ] </a>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} [ {{ post.author }} ] - {{ post.date | date: "%-d %B %Y" }}</a>
         </li>
 
 
     {% endfor %}
 </ul>
 
+### Referensi Materi Kuliah Sistem Operasi, File PDF:
 
+    {% include files_colec.html folder="reff/materi" %}
 
 
 

@@ -7,6 +7,7 @@ author: Ikhwan N. Elyas
 ---
 
 
+### All Post Materi : 
 <!-- 
 *********************************************
 FOR FD 2022  
@@ -30,7 +31,7 @@ EXPERIMENT 2 : ??
                 <!-- 
                 <a href="{{ post.url | prepend: site.url }}" target="_blank">{{ post.date | date: "%-d %B %Y" }} - {{ post.title }} [ {{ post.author }} ] </a> 
                 -->
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url}}.html" target="_blank">{{ post.date | date: "%-d %B %Y" }} - {{ post.title }} [ {{ post.author }} ] </a> 
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url}}.html" target="_blank">{{ post.title }} [ {{ post.author }} ] - {{ post.date | date: "%-d %B %Y" }}</a> 
             </li>
         {% endif %}
 
@@ -38,17 +39,19 @@ EXPERIMENT 2 : ??
 </ul>
 
 
-***
 
-#### Info & Download File: 
+
+<!-- #### Info & Download File: 
 
 <ul>
     <li><a href="#">Site URL : {{ site.url }}</a></li>
     <li><a href="#">Site BaseURL : {{ site.baseurl }}</a></li>
     <li><a href="{{ site.url }}{{ site.baseurl }}">SiteURL SiteBaseURL : {{ site.url }}{{ site.baseurl }}</a></li>
     <li><a href="#">Title URL : {{ title.url }}</a></li>
-    <!-- <li><a href="reff/app_master/encase4.2.rar">Download Encase APP</a></li>     -->
-</ul>
+ 
+    <li><a href="reff/app_master/encase4.2.rar">Download Encase APP</a></li>     
+    -->
+<!-- </ul> -->
 
 
 ***

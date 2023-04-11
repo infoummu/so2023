@@ -7,7 +7,7 @@ published: true
 ---
 
 
-### Sejarah Sistem Operasi
+## Sejarah Sistem Operasi
 
 Isi dengan Materi Pengantar seputar apa itu Cybercrime (Kira-kira 250 sampai 300 kata)
 
@@ -29,3 +29,7 @@ Isi dengan Materi seputar `Sejarah Linux`, Kira-kira 250 sampai 320 kata (lebih 
 ### 12. Sejarah IoS atau MacOS
 
 Isi dengan Materi seputar  `Sejarah IoS atau MacOS`, Kira-kira 250 sampai 300 kata (lebih dari 300 boleh tapi jangan sampai lebih dari 500 kata)
+
+### Referensi : 
+1. Judul Artikel: Sejarah Sistem Operasi Komputer, URL: https://blog.unnes.ac.id/mheyilmanhanaff/2017/02/14/sejarah-sistem-operasi-komputer/, Waktu Akses: 15/03/2023 20:30
+2. Judul Artikel: Pengertian Sistem Operasi, URL: https://itkampus.com/pengertian-sistem-operasi/, Waktu Akses: 15/03/2023 20:30
