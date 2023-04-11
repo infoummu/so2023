@@ -4,7 +4,7 @@
  <title>Sistem Operasi</title>
  <link href="http://0.0.0.0:4005/atom.xml" rel="self"/>
  <id>http://0.0.0.0:4005</id>
- <updated>2023-04-10T23:37:52-05:00</updated>
+ <updated>2023-04-11T02:22:34-05:00</updated>
  <author>
    <name>Info UMMU Ternate</name>
    <uri>https://infoummu.github.io/so2023/</uri>
@@ -18,9 +18,7 @@
    <link href="http://0.0.0.0:4005/KuliahSO_P7"/>
    <id>http://0.0.0.0:4005/KuliahSO_P7</id>
    <updated>2023-04-09T00:00:00-05:00</updated>
-   <content type="html">&lt;meta http-equiv=&quot;refresh&quot; content=&quot;3&quot; /&gt;
-
-&lt;table&gt;
+   <content type="html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Status&lt;/td&gt;
