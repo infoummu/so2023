@@ -4,7 +4,7 @@
  <title>Sistem Operasi</title>
  <link href="http://0.0.0.0:4005/atom.xml" rel="self"/>
  <id>http://0.0.0.0:4005</id>
- <updated>2023-04-11T23:20:06-05:00</updated>
+ <updated>2023-04-12T05:42:11-05:00</updated>
  <author>
    <name>Info UMMU Ternate</name>
    <uri>https://infoummu.github.io/so2023/</uri>
@@ -61,7 +61,7 @@
    <link href="http://0.0.0.0:4005/KuliahSO_P6"/>
    <id>http://0.0.0.0:4005/KuliahSO_P6</id>
    <updated>2023-04-08T00:00:00-05:00</updated>
-   <content type="html">&lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Status&lt;/td&gt; &lt;td&gt;: Online&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Waktu&lt;/td&gt; &lt;td&gt;: 04/08/2023&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Tema&lt;/td&gt; &lt;td&gt;: Sistem Operasi - Quiz&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Pertemuan&lt;/td&gt; &lt;td&gt;: Pertemuan Ke-6&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;h4 id=&quot;latihan-sistem-operasi&quot;&gt;Latihan Sistem Operasi&lt;/h4&gt; &lt;ol&gt; &lt;li&gt;Silahkan Lakukan Latihan dengan Meninstal salah satu sistem operasi linux pada Virtual Machin (VirtualBox atau VMWare) dan dokumentasikan setiap langkah-langkah Instalasi dari awal persiapan sampai selesai dan lengkapi dengan hasil tangkapan layar (Screenshot) serta penjelasannya.&lt;/li&gt; &lt;li&gt;Tulis Latihan Instalasi Sistem Operasi anda diatas dalam format file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PDF&lt;/code&gt;,&lt;/li&gt; &lt;li&gt;Simpan Filenya dalam format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PDF&lt;/code&gt;, dan beri...</content>
+   <content type="html">&lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Status&lt;/td&gt; &lt;td&gt;: Online&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Waktu&lt;/td&gt; &lt;td&gt;: 04/08/2023&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Tema&lt;/td&gt; &lt;td&gt;: Sistem Operasi - Latihan&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Pertemuan&lt;/td&gt; &lt;td&gt;: Pertemuan Ke-6&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;h4 id=&quot;latihan-sistem-operasi&quot;&gt;Latihan Sistem Operasi&lt;/h4&gt; &lt;ol&gt; &lt;li&gt;Silahkan Lakukan Latihan dengan Meninstal salah satu sistem operasi linux pada Virtual Machin (VirtualBox atau VMWare) dan dokumentasikan setiap langkah-langkah Instalasi dari awal persiapan sampai selesai dan lengkapi dengan hasil tangkapan layar (Screenshot) serta penjelasannya.&lt;/li&gt; &lt;li&gt;Tulis Latihan Instalasi Sistem Operasi anda diatas dalam format file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PDF&lt;/code&gt;,&lt;/li&gt; &lt;li&gt;Simpan Filenya dalam format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PDF&lt;/code&gt;, dan beri...</content>
  </entry>
 
  
