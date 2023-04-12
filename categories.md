@@ -31,7 +31,7 @@ EXPERIMENT 2 : ??
                 <!-- 
                 <a href="{{ post.url | prepend: site.url }}" target="_blank">{{ post.date | date: "%-d %B %Y" }} - {{ post.title }} [ {{ post.author }} ] </a> 
                 -->
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url}}.html" target="_blank">{{ post.title }} [ {{ post.author }} ] - {{ post.date | date: "%-d %B %Y" }}</a> 
+                <a href="{{ site.baseurl }}{{ post.url}}.html" target="_blank">{{ post.title }} [ {{ post.author }} ] - {{ post.date | date: "%-d %B %Y" }}</a> 
             </li>
         {% endif %}
 
