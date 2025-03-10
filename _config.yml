@@ -1,5 +1,5 @@
 # Site settings
-title: Sistem Operasi
+title: Sistem Operasi 2025
 description: "Halaman MK Sistem Operasi"
 url: "https://infoummu.github.io/so2023"
 author:
@@ -29,10 +29,10 @@ defaults:
 
 # Plugins
 #gems:
-plugins:
+#plugins:
 #  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
+#  - jekyll-sitemap
+# - jekyll-seo-tag
 
 # Custom variables
 version: "1.0.0"
