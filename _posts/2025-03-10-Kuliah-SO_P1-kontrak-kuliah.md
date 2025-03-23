@@ -3,7 +3,7 @@ title: Pertemuan 01 - Arahan dan Kontrak Kuliah
 author: Ikhwan N. Elyas
 category: Halaman Materi
 published: true
-description: Pertemuan Pertama perkuliahan mata kuliah Sistem Operasi diisi dengan pengenalan, arahan serta kontrak kuliah oleh dosen pengampu mata kuliah.Mata kuliah ini membahas konsep sistem operasi, termasuk manajemen proses, memori, dan keamanan. Mahasiswa wajib aktif dalam diskusi, praktik, dan tugas. Penilaian adalah, Absen 40%, Tugas 40%, UTS 10%, UAS 10%. Plagiarisme dilarang, pelanggaran akademik dikenakan sanksi. Mahasiswa harus memahami kontrak kuliah sebagai pedoman perkuliahan.
+description: Pertemuan Pertama perkuliahan mata kuliah Sistem Operasi diisi dengan pengenalan, arahan serta kontrak kuliah oleh dosen pengampu mata kuliah. Mahasiswa wajib aktif dalam diskusi, praktik, dan tugas. Plagiarisme dilarang, pelanggaran akademik dikenakan sanksi. Mahasiswa harus memahami kontrak kuliah sebagai pedoman perkuliahan.
 ---
 
 ## PERTEMUAN PERTAMA 01 :

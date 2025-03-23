@@ -6,7 +6,7 @@ published: true
 description: Sistem operasi adalah perangkat lunak yang mengelola sumber daya komputer dan menjadi perantara pengguna dengan perangkat keras, seperti Windows dan Linux. Fungsinya meliputi pengelolaan proses, memori, dan antarmuka pengguna, dengan tujuan meningkatkan efisiensi dan kemudahan. Tugas utamanya menjalankan aplikasi dan mengatur data, berbasis konsep multitasking dan virtualisasi, menargetkan kinerja optimal. Sejarahnya berkembang dari batch processing hingga era modern GUI.
 ---
 
-# РОКОК PEMBAHASAN
+## РОКОК PEMBAHASAN
 
 1. DEFINISI SISTEM OPERASI  
 2. FUNGSI SISTEM OPERASI  
@@ -14,10 +14,10 @@ description: Sistem operasi adalah perangkat lunak yang mengelola sumber daya ko
 4. TUGAS UTAMA SISTEM OPERASI  
 5. KONSEP UTAMA SISTEM OPERASI  
 6. SASARAN SISTEM OPERASI  
-7. SEJARAH PERKEMBANGAN SISTEM OPERASI  
+7. ARSITEKUR SISTEM OPERASI 
+8. SEJARAH PERKEMBANGAN SISTEM OPERASI  
 
 --------
-## Poin-Poin 
 
 1. **DEFINISI SISTEM OPERASI**  
    - Pengertian sistem operasi sebagai perangkat lunak pengelola sumber daya komputer.  
@@ -51,6 +51,15 @@ description: Sistem operasi adalah perangkat lunak yang mengelola sumber daya ko
    - Optimalisasi kinerja sistem.  
    - Kompatibilitas dengan berbagai perangkat keras dan lunak.  
    - Kemudahan adaptasi untuk kebutuhan pengguna.  
+
+6. **ARSITEKTUR SISTEM OPERASI**
+   - Kernel: Inti sistem operasi yang mengendalikan proses, memori, dan perangkat keras.
+   - Lapisan (Layers): Struktur berlapis seperti shell, API, dan kernel untuk modularitas.
+   - Jenis Arsitektur: Monolitik (satu blok besar), mikrokernel (fungsi minimal di kernel), atau hibrida.
+   - Interaksi Komponen: Bagaimana modul seperti file system, driver, dan scheduler bekerja sama.
+   - Mode Operasi: Pembagian antara mode pengguna (user mode) dan mode kernel (kernel mode).
+
+
 
 7. **SEJARAH PERKEMBANGAN SISTEM OPERASI**  
    - Awal mula: sistem batch processing (1950-an).  
@@ -94,14 +103,64 @@ description: Sistem operasi adalah perangkat lunak yang mengelola sumber daya ko
    Sistem operasi adalah perangkat lunak yang mengelola sumber daya komputer dan bertindak sebagai perantara antara pengguna/perangkat lunak aplikasi dan perangkat keras. Contoh sistem operasi yang populer termasuk Windows, Linux, dan macOS, yang masing-masing memiliki karakteristik dan penggunaan yang berbeda.
 
 ---
-#### **Other Source** 
+### **5. Konsep Utama Sistem Operasi**
 
-* **Pengertian sistem operasi sebagai perangkat lunak pengelola sumber daya komputer**.
-Sistem operasi adalah jenis perangkat lunak yang bertugas mengatur dan mengelola semua sumber daya yang ada di dalam komputer, seperti prosesor, memori, dan penyimpanan. Tanpa sistem operasi, perangkat keras tidak dapat berfungsi secara optimal karena tidak ada yang mengkoordinasikan penggunaannya. Contohnya, sistem operasi menentukan bagaimana memori dialokasikan untuk aplikasi yang sedang berjalan.
+   Konsep utama yang mendasari sistem operasi meliputi:
+   - **Multitasking:** Kemampuan menjalankan beberapa tugas sekaligus, seperti membuka browser dan editor teks bersamaan.
 
-* **Peran sebagai perantara antara pengguna dan perangkat keras**.
-Sistem operasi berfungsi sebagai jembatan yang memungkinkan pengguna berinteraksi dengan perangkat keras tanpa perlu memahami detail teknisnya. Ia menerjemahkan perintah pengguna (misalnya, membuka aplikasi) menjadi instruksi yang dapat dipahami oleh perangkat keras, sehingga pengguna bisa menggunakan komputer dengan mudah melalui antarmuka yang disediakan.
+   - **Multiprocessing:** Pemanfaatan lebih dari satu prosesor untuk meningkatkan kinerja, sering digunakan di server.
 
-* **Contoh sistem operasi (Windows, Linux, macOS)**.
-Beberapa sistem operasi yang populer mencakup Windows, yang dikenal ramah pengguna dan banyak digunakan di PC; Linux, yang bersifat open-source dan fleksibel untuk pengembang; serta macOS, yang dirancang khusus untuk perangkat Apple dengan fokus pada stabilitas dan desain. Ketiganya menunjukkan variasi sistem operasi yang disesuaikan dengan kebutuhan pengguna berbeda.
+   - **Virtualisasi:** Simulasi sumber daya fisik, seperti membuat mesin virtual untuk menjalankan sistem operasi lain.
+
+   - **Scheduling:** Pengaturan prioritas tugas, memastikan proses penting mendapatkan akses CPU lebih dulu.
+
+---
+
+### **7. Arsitektur Sistem Opersi** 
+
+
+#### Kernel  
+   - **Penjelasan:** Kernel adalah inti dari sistem operasi yang mengelola sumber daya perangkat keras seperti CPU, memori, dan perangkat I/O. 
+   Kernel adalah komponen inti dari sistem operasi yang bertanggung jawab atas pengelolaan sumber daya perangkat keras seperti CPU, memori, dan perangkat I/O. Ia menjalankan fungsi esensial seperti penjadwalan proses, alokasi memori, dan komunikasi dengan perangkat keras melalui driver. Kernel beroperasi pada tingkat privilige tertinggi, memastikan kontrol penuh atas sistem, dan menjadi dasar bagi semua layanan sistem operasi. 
+
+   - **Fungsi:** Menangani penjadwalan proses, alokasi memori, dan komunikasi dengan perangkat keras melalui driver.  
+
+   - **Karakteristik:** Berjalan pada mode privilige tertinggi (kernel mode), memberikan kontrol penuh atas sistem dan menjadi fondasi bagi semua layanan sistem operasi.
+
+#### User Mode  
+   - **Penjelasan:** Mode pengguna adalah lingkungan tempat aplikasi pengguna berjalan dengan akses terbatas ke perangkat keras.  
+
+   - **Fungsi:** Melindungi sistem dari kerusakan akibat kesalahan aplikasi, hanya mengizinkan operasi melalui panggilan sistem yang aman.  
+
+   - **Karakteristik:** Tidak memiliki akses langsung ke perangkat keras atau memori sistem; bergantung pada kernel untuk tugas tingkat rendah seperti membaca file atau mencetak.
+
+#### System Call  
+   - **Penjelasan:** System call adalah mekanisme yang digunakan aplikasi di user mode untuk meminta layanan dari kernel.  
+
+   - **Fungsi:** Menjembatani user mode dan kernel mode, misalnya untuk membuka file, mengalokasikan memori, atau mengirim data ke jaringan.  
+
+   - **Karakteristik:** Melibatkan perpindahan dari user mode ke kernel mode (context switching), memastikan keamanan dan kontrol dengan memungkinkan kernel memvalidasi setiap permintaan.
+
+
+#### Lapisan (Layers)
+   Arsitektur berlapis membagi sistem operasi menjadi beberapa tingkatan, seperti lapisan kernel (terendah), lapisan layanan sistem (file system, jaringan), dan lapisan antarmuka pengguna (shell atau GUI). Setiap lapisan hanya berkomunikasi dengan lapisan di atas atau di bawahnya, meningkatkan modularitas dan memudahkan pengelolaan, meskipun bisa menambah overhead karena banyaknya panggilan antar lapisan.
+
+#### Jenis Arsitektur
+   Ada beberapa jenis arsitektur sistem operasi:  
+   - **Monolitik:** Semua fungsi (proses, file, driver) ada dalam satu kernel besar, cepat karena minim komunikasi antar modul, tapi kurang stabil jika ada kegagalan. Contoh: Linux awal.  
+
+   - **Mikrokernel:** Hanya fungsi inti (penjadwalan, komunikasi) di kernel, sisanya di ruang pengguna, lebih stabil tapi lambat karena overhead pesan. Contoh: Minix.  
+
+   - **Hibrida:** Gabungan monolitik dan mikrokernel untuk keseimbangan kinerja dan stabilitas. Contoh: Windows NT, macOS.
+
+####  Interaksi Komponen
+   Ini mengacu pada bagaimana modul seperti sistem file (file system), pengelola memori, driver perangkat, dan penjadwal proses (scheduler) saling berinteraksi. Misalnya, saat pengguna menyimpan file, kernel memanggil driver disk, mengalokasikan memori, dan memperbarui sistem file. Interaksi ini bisa langsung (di monolitik) atau melalui pesan (di mikrokernel), memengaruhi efisiensi dan keandalan sistem.
+
+#### Mode Operasi
+   Sistem operasi bekerja dalam dua mode:  
+   - **Mode Pengguna (User Mode):** Tempat aplikasi berjalan dengan akses terbatas ke perangkat keras untuk mencegah kerusakan sistem. Instruksi dijalankan melalui panggilan sistem (system call) ke kernel.  
+
+   - **Mode Kernel (Kernel Mode):** Kernel beroperasi dengan akses penuh ke perangkat keras, menangani tugas kritis seperti manajemen interrupt dan I/O. Pergantian mode ini (context switching) memastikan keamanan dan stabilitas sistem.
+
+
 
