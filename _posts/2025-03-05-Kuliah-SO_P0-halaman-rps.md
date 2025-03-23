@@ -31,21 +31,21 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 
 | Minggu | Materi | Aktivitas Pembelajaran | Referensi |
 |--------|--------|------------------------|------------|
-| 1 | Pengenalan Sistem Operasi | Kuliah, diskusi | Buku A Bab 1 |
-| 2 | Sejarah dan Perkembangan Sistem Operasi | Kuliah, tanya jawab | Buku A Bab 2 |
-| 3 | Struktur dan Komponen Sistem Operasi | Kuliah, studi kasus | Buku A Bab 3 |
-| 4 | Manajemen Proses | Kuliah, latihan soal | Buku B Bab 4 |
-| 5 | Penjadwalan Proses | Kuliah, diskusi kelompok | Buku B Bab 5 |
-| 6 | Manajemen Memori | Kuliah, studi kasus | Buku B Bab 6 |
-| 7 | Sistem Berkas dan Penyimpanan | Kuliah, praktik laboratorium | Buku C Bab 7 |
+| 1 | Pengenalan Sistem Operasi | Kuliah, diskusi | Buku 1-3 |
+| 2 | Sejarah dan Perkembangan Sistem Operasi | Kuliah, diskusi, tanya jawab | Buku 1-3 |
+| 3 | Struktur dan Komponen Sistem Operasi | Kuliah, diskusi studi kasus | Buku 1-3|
+| 4 | Manajemen Proses | Kuliah, diskusi, latihan soal | Buku 1-3 |
+| 5 | Penjadwalan Proses | Kuliah, diskusi kelompok | Buku 1-3 |
+| 6 | Manajemen Memori | Kuliah, diskusi, studi kasus | Buku 1-3 |
+| 7 | Sistem Berkas dan Penyimpanan | Kuliah, diskusi | Buku 1-3 |
 | 8 | **Ujian Tengah Semester (UTS)** | - | - |
-| 9 | Sistem I/O dan Manajemen Perangkat | Kuliah, diskusi | Buku C Bab 8 |
-| 10 | Keamanan dan Proteksi Sistem Operasi | Kuliah, latihan soal | Buku D Bab 9 |
-| 11 | Virtualisasi dan Sistem Operasi Modern | Kuliah, studi kasus | Buku D Bab 10 |
-| 12 | Administrasi Dasar Linux | Praktik laboratorium | Buku E Bab 11 |
-| 13 | Administrasi Dasar Windows | Praktik laboratorium | Buku E Bab 12 |
-| 14 | Studi Kasus Implementasi Sistem Operasi | Diskusi, presentasi mahasiswa | Buku F Bab 13 |
-| 15 | Review Materi dan Pembahasan Soal | Diskusi, kuis | Buku F Bab 14 |
+| 9 | Sistem I/O dan Manajemen Perangkat | Kuliah, diskusi | Buku 1-3 |
+| 10 | Keamanan dan Proteksi Sistem Operasi | Kuliah, diskusi, latihan soal | Buku 1-3 |
+| 11 | Virtualisasi dan Sistem Operasi Modern | Kuliah, diskusi, studi kasus | Buku 1-3 |
+| 12 | Administrasi Dasar Linux | Kuliah, diskusi | Buku 1-3 |
+| 13 | Administrasi Dasar Windows | Kuliah, diskusi | Buku 1-3 |
+| 14 | Studi Kasus Implementasi Sistem Operasi | Kuliah, diskusi, presentasi mahasiswa | Buku 1-3 |
+| 15 | Review Materi dan Pembahasan Soal | Kuliah, diskusi, kuis | Buku 1-3 |
 | 16 | **Ujian Akhir Semester (UAS)** | - | - |
 
 ### **Referensi**  
