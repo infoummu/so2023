@@ -12,15 +12,19 @@ description: Pertemuan Pertama perkuliahan mata kuliah Sistem Operasi diisi deng
 |Waktu   | : 30/09/2022                 |
 |Tema    | : Arahan dan Kontrak Kuliah  |
 
+## Jaringan Internet di tempat saya agak JELEK, jadi kalau TERPUTUS silahkan MASUK LAGI
+## Jaringan Jelek jadi suara saya putus2, sory...
 
 
 ### Variabel dan Persentase Penilaian :
 - Absen  : 40 %
     - Absen Untuk Pertemuan Online dihitung berdasarkan yang mengumpulkan file Tugas Pengganti Pertemuan yang di-Onlinekan
-- Tugas  : 40 %
+- Tugas  : 40 % 
+    * nanti ada perbaikan poin ini, hanya yang masuk yang akan di pertimbangkan tugasnya 
     - Tugas yang AKAN DINILAI adalah tugas yang dikerjakan dan dikumpulkan SESUAI DENGAN KETENTUAN, dan dikupul ke `Google Drive` : [`Link Google Drive ini`](https://drive.google.com/drive/folders/10ygcYYhRjqYxniaMBUVDhC9929ar801z?usp=sharing){:target="_blank"}
     - Setiap tugas akan disampaikan ketentuan apa saja yang harus dipenuhi, Usahakan untuk memenuhi semua ketentuan yang ditetapkan oleh dosen.
 - UTS dan UAS : 20 % (UTS 10% dan UAS 10%)
+   - Tidak Ada Remedial, karna persentasi UAS hanya 10 %, (jadi tidak ngaruh nila walaupun ikut remedial)
 
 ###  Sebelum ke Pertemuan Selanjutnya 
 
