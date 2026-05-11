@@ -91,5 +91,9 @@ Berikut versi **ringkas dalam bentuk tabel** konsep-konsep penting **Input/Outpu
 Input/Output dalam sistem operasi adalah tentang **bagaimana komputer berinteraksi dengan dunia luar**. Tanpa manajemen I/O yang baik, komputer akan seperti orang pintar yang terkurung di ruangan tanpa bisa bicara atau mendengar.
 
 
+### Referensi : 
+1. MODERN OPERATING SYSTEMS FOURTH EDITION, ANDREW S. TANENBAUM - HERBERT BOS, Vrije Universiteit Amsterdam, The Netherlands.
+2. 
+
 ---
 By: ikhwanelyas@fedora.linux

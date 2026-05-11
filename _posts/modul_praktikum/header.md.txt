@@ -1,0 +1,7 @@
+---
+title: Praktikum <xx: 01...07> - <title> 
+author: Ikhwan N. Elyas
+category: Halaman Materi
+published: true
+description: <description>.
+---
