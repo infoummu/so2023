@@ -275,6 +275,10 @@ Laporan dikumpulkan secara individu dengan sistematika sebagai berikut:
 8. Jawaban tugas mandiri.
 9. Hasil praktik ulang di Windows.
 10. Kesimpulan.
+11. Berikan nama File Laporannya:  **Laporan_Tugas_Praktikum1_npm.pdf**
+11. Upload Laporannya (File PDF)  Sekalian Absen di **[https://so.elyas.site](https://so.elyas.site/){:target="_blank"}**
+13. Tugas dikumpul dan batas waktu kumpul hari Rabu: **13/05/2025 Jam 23:59 (Rabu Malam)**
+
 
 ## J. Kesimpulan
 Melalui praktikum ini, mahasiswa memperoleh pengenalan awal mengenai penggunaan Linux dan terminal sebagai sarana interaksi dengan sistem operasi. Pemahaman yang diperoleh pada praktikum ini diharapkan menjadi dasar yang kuat untuk mengikuti praktikum-praktikum berikutnya, khususnya yang berkaitan dengan shell scripting, manajemen proses, file system, dan system call.
