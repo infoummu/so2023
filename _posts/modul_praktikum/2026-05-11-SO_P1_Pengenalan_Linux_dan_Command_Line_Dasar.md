@@ -276,8 +276,8 @@ Laporan dikumpulkan secara individu dengan sistematika sebagai berikut:
 9. Hasil praktik ulang di Windows.
 10. Kesimpulan.
 11. Berikan nama File Laporannya:  **Laporan_Tugas_Praktikum1_npm.pdf**
-12. Upload Laporannya (File PDF)  Sekalian Absen di **[https://so.elyas.site](https://so.elyas.site/){:target="_blank"}**
-13. Tugas dikumpul dan batas waktu kumpul hari Rabu: **13/05/2025 Jam 23:59 (Rabu Malam)**
+12. Upload Laporannya (File PDF)  Sekalian Absen di **[https://t.me/MyAsdosElyasBot](https://t.me/MyAsdosElyasBot){:target="_blank"}** Asisten Dosen AI Untuk Mata Kuliah SO dan PAJ 
+13. Tugas dikumpul dan batas waktu kumpul hari Rabu (info3): **13/05/2025 Jam 23:59 (Rabu Malam)**, dan **15/05/2025 Jam 23:59 (Jumat Malam)** (untuk Info2 dan Info1)
 
 
 ## J. Kesimpulan
