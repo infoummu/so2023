@@ -930,37 +930,7 @@ Pada percobaan ini, Anda akan menggunakan pipeline untuk menganalisis izin file 
    ```
 
 ## F. Tugas Akhir Praktikum
-Sebagai penguatan pemahaman, kerjakan tugas berikut:
-1. Praktikkan kembali seluruh materi pada modul ini di **environment Windows**.
-2. Gunakan perangkat yang paling mendekati shell Linux, seperti **PowerShell**, **Git Bash**, atau **WSL** apabila tersedia.
-3. Bandingkan secara singkat cara mengelola izin file dan pengguna di Linux dan Windows.
-4. Susun **laporan praktikum** secara lengkap.
-5. Isi laporan harus memuat:
-   - identitas praktikan,
-   - tujuan praktikum,
-   - langkah kerja,
-   - kode script,
-   - **screenshot hasil praktikum**,
-   - penjelasan setiap percobaan,
-   - jawaban tugas analisis,
-   - kesimpulan.
-
-### Format Laporan
-Laporan dikumpulkan secara individu dengan sistematika sebagai berikut:
-1. Judul praktikum.
-2. Nama dan NIM.
-3. Tujuan praktikum.
-4. Dasar teori singkat.
-5. Langkah kerja.
-6. Kode program atau script.
-7. Hasil praktikum disertai screenshot.
-8. Pembahasan atau analisis.
-9. Hasil praktik ulang di Windows.
-10. Kesimpulan.
-11. Berikan nama File Laporannya: **Laporan_Tugas_Praktikum4_npm.pdf**
-12. Upload Laporannya (File PDF) Sekalian Absen di **[https://t.me/MyAsdosElyasBot](https://t.me/MyAsdosElyasBot){:target="_blank"}** Asisten Dosen AI Untuk Mata Kuliah SO dan PAJ
-13. Tugas dikumpul dan batas waktu kumpul: **17/06/2026 Jam 23:59 (Rabu Malam)**.
-
+Pelajari dan praktikkan, nanti akan di Presentasikan Praktikumnya online atau offline (menyesuaikan)
 
 ---
 By: elyas@fedora.linux
